@@ -50,12 +50,13 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Uchen', serif;
+    font-family: 'IM Fell French Canon', serif;
     color: var(--color-mid);
 }
 
 h1 {
     font-size: 2.5rem;
+    font-family: 'Uchen', serif;
 }
 
 img {
@@ -92,6 +93,7 @@ margin-bottom: 3rem;
 
 .btn-primary {
     background: var(--color-primary);
+    color: var(--color-white);
 }
 
 .container {
