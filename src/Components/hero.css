@@ -53,3 +53,19 @@ header {
     color: #003049;
 }
 
+/* =============================== MEDIA QUERIES (SMALL DEVICES) =============================== */
+
+@media screen and (max-width: 600px) {
+    header {
+        height: 100vh;
+        text-align: center;
+    }
+}
+
+/* =============================== MEDIA QUERIES (MEDIUM DEVICES) =============================== */
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+}
