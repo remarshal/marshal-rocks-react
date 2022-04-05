@@ -1,3 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --color-primary: #D90429;
+    --color-primary-variant: #EF233C;
+    --color-pale: #EDF2F4;
+    --color-mid: #8D99AE;
+    --color-dark: #003049;
+    --color-link: #0000FF;
+    --color-link-hover: #067ded;
+    --color-success: #008000;
+    --color-white: #fff;
+
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+    --container-width-lg: 75%;
+
+    --transition: all 400ms ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
-    background-color: antiquewhite;
+   font-family: 'IM Fell French Canon', serif;
+   line-height: 1.7;
+}
+
+/* =============================== GENERAL STYLES =============================== */
+a {
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--color-white);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Uchen', serif;
+    color: var(--color-mid);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+section {
+    margin-top: 8rem;
+}
+
+section > h2, section > h5 {
+text-align: center;
+margin-bottom: 3rem;
+}
+
+/* =============================== CLASSES =============================== */
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: .75rem 1.2rem;
+    border-radius: .4rem;    
+    cursor: pointer;
+    border: 1px solid var(--color-primary-variant);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background: var(--color-white);
+    border-color: transparent;
+}
+
+.btn-primary {
+    background: var(--color-primary);
+}
+
+.container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+}
+
+.text-light {
+    color: var(--color-pale);
+}
+
+/* =============================== MEDIA QUERIES (SMALL DEVICES) =============================== */
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    section > h2{
+        margin-bottom: 2rem;
+    }
+}
+
+/* =============================== MEDIA QUERIES (MEDIUM DEVICES) =============================== */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+
+    section {
+        margin-top: 6rem;
+    }
 }
