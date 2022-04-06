@@ -39,6 +39,7 @@
 }
 .nav-menu a i, .nav-menu a:focus i {
     font-size: 20px;
+    padding-top: 5px;
 }
 .nav-menu a span, .nav-menu a:focus span {
     padding: 0 5px 0 7px;
