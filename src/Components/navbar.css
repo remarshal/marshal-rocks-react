@@ -1,6 +1,6 @@
 #navbar {
     position: fixed;
-    top: 10vh;
+    top: 0;
     left: 0;
     bottom: 0;
     z-index: 9997;
@@ -72,6 +72,10 @@
 }
 .nav-menu a:hover span, .nav-menu li:hover > a span {
     display: block;
+}
+
+.nav-menu a span::first-letter {
+    text-transform: capitalize;
 }
 
 
