@@ -1,37 +1,46 @@
+.about--container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
 
-.section-title {
+.about--me {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+}
+
+.about--img {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(-10deg);
+}
+
+.about--img:hover {
+    border-radius: 2rem;
+    transform: rotate(0);
+    transition: var(--transition)
+}
+
+.about--cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.about--card {
+    border-radius: .4rem;   
+    border: 1.1rem var(--color-primary);
+    background: linear-gradient(var(--color-primary), transparent);
+    padding: 2rem;
     text-align: center;
-    padding-bottom: 30px;
-  }
-  .section-title h2 {
-    font-size: 32px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-    color: #003049;
-  }
-  .section-title h2::before {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 120px;
-    height: 1px;
-    background: #EDF2F4;
-    bottom: 1px;
-    left: calc(50% - 60px);
-  }
-  .section-title h2::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 40px;
-    height: 3px;
-    background: #D90429;
-    bottom: 0;
-    left: calc(50% - 20px);
-  }
-  .section-title p {
-    margin-bottom: 0;
-  }
+}
+
+.about--card:hover {
+    background: 1rem transparent;
+    border: 1.3rem var(--color-primary);
+    cursor: pointer;
+}
