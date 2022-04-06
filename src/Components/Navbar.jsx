@@ -8,10 +8,10 @@ const Navbar = () => {
         <div id="navbar">
             <nav className='nav-menu'>
                 <ul>
-                    <li><a href="#hero" className="active"><AiOutlineHome /><i class="bx bx-home"></i> <span>Home</span></a></li>
-                    <li><a href="#about" ><BsPerson /><i class="bx bx-user"></i> <span>About</span></a></li>
-                    <li><a href="#portfolio" ><BsGrid /><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-                    <li><a href="#contact" ><MdOutlineEmail /><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+                    <li><a href="#hero" className="active"><i><AiOutlineHome /></i> <span>Home</span></a></li>
+                    <li><a href="#about" ><i><BsPerson /></i> <span>About</span></a></li>
+                    <li><a href="#portfolio" ><i><BsGrid /></i> <span>Portfolio</span></a></li>
+                    <li><a href="#contact" ><i> <MdOutlineEmail /></i> <span>Contact</span></a></li>
                 </ul>
             </nav>
         </div>
