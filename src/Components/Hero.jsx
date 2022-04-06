@@ -4,7 +4,7 @@ import TypedWords from './Typed';
 
 const Hero = () => {
     return (
-        <header className='hero--container'>
+        <header id='hero' className='hero--container'>
             <div className="container">
                 <h1 className='hero--text'>Marshal <span>Rocks</span></h1>
                 <h5 className='hero--text--typed'>As a<TypedWords /></h5>

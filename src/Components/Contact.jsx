@@ -1,9 +1,11 @@
-import './contact.css'
+import './contact.css';
 
 const Contact = () => {
     return (
         <div>
-            
+            <section id='contact'>
+                Contact
+            </section>
         </div>
     );
 };
