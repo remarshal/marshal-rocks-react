@@ -1,20 +1,31 @@
 import './navbar.css';
+import { useState } from 'react';
 import { AiOutlineHome } from 'react-icons/ai';
 import { BsPerson, BsGrid } from 'react-icons/bs';
 import { MdOutlineEmail } from 'react-icons/md';
 
 const Navbar = () => {
+    const navItems = [
+        { id: 1, title: "hero", icon: <AiOutlineHome /> },
+        { id: 2, title: "about", icon: <BsPerson /> },
+        { id: 3, title: "portfolio", icon: <BsGrid /> },
+        { id: 4, title: "contact", icon: <MdOutlineEmail /> }
+    ];
+
+    const [activeId, setActiveId] = useState();
+
     return (
         <div id="navbar">
             <nav className='nav-menu'>
                 <ul>
-                    <li><a href="#hero" className="active"><i><AiOutlineHome /></i> <span>Home</span></a></li>
-                    <li><a href="#about" ><i><BsPerson /></i> <span>About</span></a></li>
-                    <li><a href="#portfolio" ><i><BsGrid /></i> <span>Portfolio</span></a></li>
-                    <li><a href="#contact" ><i> <MdOutlineEmail /></i> <span>Contact</span></a></li>
+                    {navItems.map((item) => (
+                        <li onClick={() => setActiveId(item.id)}>
+                            <a href={`#${item.title}`} className={activeId === item.id ? "active" : "inactive"} ><i>{item.icon}</i> <span>{item.title}</span></a>
+                        </li>
+                    ))}
                 </ul>
             </nav>
-        </div>
+        </div >
     );
 };
 
