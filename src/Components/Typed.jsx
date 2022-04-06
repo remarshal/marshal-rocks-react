@@ -8,10 +8,10 @@ class TypedWords extends Component {
             <div className='typed--text'>
                 <Typed 
                     strings={[
-                        ' Developer',
-                        'Coder',
+                        'Website Developer',
+                        'Software Coder',
+                        'Website Designer',
                         'Freelancer',
-                        'Designer'
                     ]}
                     typeSpeed={100}
                     backSpeed={50}

@@ -3,3 +3,11 @@
     display: flex;
     margin-left: 7px;
 }
+
+/* =============================== MEDIA QUERIES (SMALL DEVICES) =============================== */
+
+@media screen and (max-width: 600px) {
+    .typed--text {
+        display: grid;
+    }
+}
