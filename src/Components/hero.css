@@ -27,6 +27,12 @@ header {
     color: #003049;
 }
 
+.hero--text--typed {
+    position: relative;
+    color: #003049;
+    display: flex;
+}
+
 .hero--btn {
     position: relative;
     margin-right: 10px;

@@ -1,0 +1,5 @@
+.typed--text {
+    color: var(--color-primary);
+    display: flex;
+    margin-left: 7px;
+}
