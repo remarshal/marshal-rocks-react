@@ -15,7 +15,7 @@ class TypedWords extends Component {
                     ]}
                     typeSpeed={100}
                     backSpeed={50}
-                    backDelay={1000}
+                    backDelay={4000}
                     loop
                 />
                 <br/>

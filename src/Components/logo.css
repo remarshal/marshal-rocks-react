@@ -1,0 +1,28 @@
+.logo--letters span {
+    color: var(--color-primary);
+
+    padding: 0;
+    letter-spacing: -115px;
+    font-size: 50rem;
+}
+
+.logo--letters {
+    margin: 150px;
+    padding: 0;
+    letter-spacing: -1px;
+    font-size: 50rem;
+}
+
+.port span {
+    color: var(--color-primary);
+    padding: 0;
+    letter-spacing: -58px;
+    font-size: 25rem;
+}
+
+.port {
+    margin-left: 450px;
+    padding: 0;
+    letter-spacing: -1px;
+    font-size: 25rem;
+}
