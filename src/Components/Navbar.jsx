@@ -7,13 +7,13 @@ import { MdOutlineEmail } from 'react-icons/md';
 
 const Navbar = () => {
     const navItems = [
-        { id: 1, title: "home", icon: <AiOutlineHome /> },
+        { id: 1, title: "home", icon: <AiOutlineHome />},
         { id: 2, title: "about", icon: <BsPerson /> },
         { id: 3, title: "portfolio", icon: <CgWebsite /> },
         { id: 4, title: "contact", icon: <MdOutlineEmail /> }
     ];
 
-    const [activeId, setActiveId] = useState();
+    const [activeId, setActiveId] = useState("");
 
     return (
         <div id="navbar">

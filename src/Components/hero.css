@@ -59,6 +59,14 @@ header {
     color: #003049;
 }
 
+/* =============================== MEDIA QUERIES (MEDIUM DEVICES) =============================== */
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+}
+
 /* =============================== MEDIA QUERIES (SMALL DEVICES) =============================== */
 
 @media screen and (max-width: 600px) {
@@ -72,10 +80,3 @@ header {
     }
 }
 
-/* =============================== MEDIA QUERIES (MEDIUM DEVICES) =============================== */
-
-@media screen and (max-width: 1024px) {
-    header {
-        height: 68vh;
-    }
-}

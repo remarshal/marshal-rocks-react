@@ -44,6 +44,7 @@
 .nav-menu a span, .nav-menu a:focus span {
     padding: 0 5px 0 7px;
     color: #003049;
+    font-family: "Poppins", sans-serif;
 }
 @media (min-width: 992px) {
     .nav-menu a, .nav-menu a:focus {

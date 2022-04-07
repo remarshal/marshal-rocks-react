@@ -16,26 +16,26 @@ const About = () => {
                         <img src={ProfileImg} alt="Marshals Profile Photo" />
                     </div>
                 </div>
-                <div className="about-content">
+                <div className="about--content">
                     <div className="about--cards">
                         <card className='about--card'>
                             <FiUsers className='about--icons' />
-                            <h3>Experience</h3>
-                            <h5>20+ years of Information Technology</h5>
+                            <h5>Experience</h5>
+                            <h6>20+ years of Information Technology</h6>
                         </card>
                         <card className='about--card'>
                             <FiAward className='about--icons' />
-                            <h3>Certificates</h3>
-                            <h5>Bootstrap | React | Node.js</h5>
+                            <h5>Certificates</h5>
+                            <h6>Bootstrap | React | Node.js</h6>
                         </card>
                         <card className='about--card'>
                             <RiComputerLine className='about--icons' />
-                            <h3>Focus</h3>
-                            <h5>HTML | CSS | JavaScript</h5>
+                            <h5>Focus</h5>
+                            <h6>HTML | CSS | JavaScript</h6>
                         </card>
-                        <p>I've always been fasinated with computers and the internet. I'm not afraid to try new things, a naturally a problem-solver, and a life-long learner of new skills.</p>
-                        <a href='#contact' className='btn btn-primary'>Let's connect!</a>
                     </div>
+                    <p>I've always been fasinated with computers and the internet. I'm not afraid to try new things, a naturally a problem-solver, and a life-long learner of new skills.</p>
+                    <a href='#contact' className='btn btn-primary'>Let's connect!</a>
                 </div>
             </div>
         </section>

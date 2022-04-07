@@ -50,7 +50,7 @@ a:hover {
     color: var(--color-white);
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6, p {
     color: #45505b;
     margin: 15px 0 15px 0;
     font-family: "Poppins", sans-serif;
@@ -69,6 +69,9 @@ h4 {
     font-size: 1.5rem;
 }
 h5 {
+    font-size: 1.25rem;
+}
+h6 {
     font-size: 1rem;
 }
 
@@ -98,6 +101,7 @@ margin-bottom: 3rem;
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);
+    font-family: "Poppins", sans-serif;
 }
 
 .btn:hover {
@@ -111,8 +115,9 @@ margin-bottom: 3rem;
 }
 
 .btn-primary:hover {
-    background: var(--color-primary-variant);
-    color: var(--color-white);
+    background: var(--color-white);
+    border: 1px solid var(--color-primary);
+    color: black;
 }
 
 .container {
@@ -162,6 +167,18 @@ margin-bottom: 3rem;
     margin-bottom: 0;
 }
 
+/* =============================== MEDIA QUERIES (MEDIUM DEVICES) =============================== */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+}
+
 /* =============================== MEDIA QUERIES (SMALL DEVICES) =============================== */
 
 @media screen and (max-width: 600px) {
@@ -174,14 +191,3 @@ margin-bottom: 3rem;
     }
 }
 
-/* =============================== MEDIA QUERIES (MEDIUM DEVICES) =============================== */
-
-@media screen and (max-width: 1024px) {
-    .container {
-        width: var(--container-width-md);
-    }
-
-    section {
-        margin-top: 6rem;
-    }
-}
