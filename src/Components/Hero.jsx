@@ -7,7 +7,7 @@ const Hero = () => {
         <header id='home' className='hero--container'>
             <div className="container">
                 <h1 className='hero--text'>Marshal <span>Rocks</span></h1>
-                <h5 className='hero--text--typed'>As a<TypedWords /></h5>
+                <h4 className='hero--text--typed'>As a<TypedWords /></h4>
                 <a href="48:45" className='btn hero--btn'>Download Resume</a>
                 <a href="#contact" className='btn btn-primary hero--btn'>Lets Chat!</a>
                 <div className='hero--social'>

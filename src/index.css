@@ -11,7 +11,8 @@
 :root {
     --color-primary: #D90429;
     --color-primary-variant: #ff001e;
-    --color-pale: #EDF2F4;
+    --color-primary-light: #fdf4f6;
+    --color-pale: #eefaff;
     --color-mid: #8D99AE;
     --color-dark: #003049;
     --color-link: #0000FF;
@@ -115,7 +116,7 @@ margin-bottom: 3rem;
 }
 
 .btn-primary:hover {
-    background: var(--color-white);
+    background: var(--color-primary-light);
     border: 1px solid var(--color-primary);
     color: black;
 }

@@ -31,7 +31,7 @@
     transition: 0.3s;
     font-size: 15px;
     border-radius: 50px;
-    background: white;
+    background: var(--color-pale);
     height: 56px;
     width: 100%;
     overflow: hidden;
