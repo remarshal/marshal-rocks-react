@@ -20,8 +20,8 @@ const Navbar = () => {
             <nav className='nav-menu'>
                 <ul>
                     {navItems.map((item) => (
-                        <li onClick={() => setActiveId(item.id)}>
-                            <a href={`#${item.title}`} className={activeId === item.id ? "active" : "inactive"} ><i>{item.icon}</i> <span>{item.title}</span></a>
+                        <li onClick={() => setActiveId(item.id)} key={item.id}> 
+                            <a href={`#${item.title}`} className={activeId === item.id ? "active" : "inactive"}><i>{item.icon}</i> <span>{item.title}</span></a>
                         </li>
                     ))}
                 </ul>

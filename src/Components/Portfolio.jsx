@@ -4,7 +4,7 @@ import portfolioData from "../portfolio-data";
 const Portfolio = () => {
     const projects = portfolioData.map(project => {
         return (
-            <card className="portfolio--item" key={project.id}>
+            <article className="portfolio--item" key={project.id}>
                 <div className="portfolio--img">
                     <img src={project.img} alt="Portfolio Site Image" />
                 </div>
@@ -12,7 +12,7 @@ const Portfolio = () => {
                 <h5>{project.type}</h5>
                 <a href={project.github} target='_blank' className='btn'>Github</a>
                 <a href={project.site} target='_blank' className='btn btn-primary'>Live Site</a>
-            </card>
+            </article>
         );
     });
     return (

@@ -18,21 +18,21 @@ const About = () => {
                 </div>
                 <div className="about--content">
                     <div className="about--cards">
-                        <card className='about--card'>
+                        <article className='about--card'>
                             <FiUsers className='about--icons' />
                             <h5>Experience</h5>
                             <h6>20+ years of Information Technology</h6>
-                        </card>
-                        <card className='about--card'>
+                        </article>
+                        <article className='about--card'>
                             <FiAward className='about--icons' />
                             <h5>Certificates</h5>
                             <h6>Bootstrap | React | Node.js</h6>
-                        </card>
-                        <card className='about--card'>
+                        </article>
+                        <article className='about--card'>
                             <RiComputerLine className='about--icons' />
                             <h5>Focus</h5>
                             <h6>HTML | CSS | JavaScript</h6>
-                        </card>
+                        </article>
                     </div>
                     <p>I've always been fasinated with computers and the internet. I'm not afraid to try new things, a naturally a problem-solver, and a life-long learner of new skills.</p>
                     <a href='#contact' className='btn btn-primary'>Let's connect!</a>
