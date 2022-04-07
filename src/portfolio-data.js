@@ -1,9 +1,9 @@
-import Portfolio1 from '../assets/img/portfolio/portfolio-1.jpg';
-import Portfolio2 from '../assets/img/portfolio/portfolio-2.jpg';
-import Portfolio3 from '../assets/img/portfolio/portfolio-3.jpg';
-import Portfolio4 from '../assets/img/portfolio/portfolio-4.jpg';
-import Portfolio5 from '../assets/img/portfolio/portfolio-5.jpg';
-import Portfolio6 from '../assets/img/portfolio/portfolio-6.jpg';
+import Portfolio1 from './assets/img/portfolio/portfolio-1.jpg';
+import Portfolio2 from './assets/img/portfolio/portfolio-2.jpg';
+import Portfolio3 from './assets/img/portfolio/portfolio-3.jpg';
+import Portfolio4 from './assets/img/portfolio/portfolio-4.jpg';
+import Portfolio5 from './assets/img/portfolio/portfolio-5.jpg';
+import Portfolio6 from './assets/img/portfolio/portfolio-6.jpg';
 
 const portfolioData = [
     {
@@ -62,4 +62,4 @@ const portfolioData = [
     },
 ];
 
-export default portfolioData
+export default portfolioData;
