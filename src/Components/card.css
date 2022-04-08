@@ -4,6 +4,7 @@
     border-radius: 5%;
     overflow: hidden;
     transition: var(transition);
+    height: 525px;
 }
 
 .cards:hover {
@@ -23,8 +24,13 @@
     
 }
 
+.card--info {
+
+}
+
 .cards h3 {
     margin: 1.2rem;
+    height: 100px;
 }
 
 .cards h5 {
