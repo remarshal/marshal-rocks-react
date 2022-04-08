@@ -1,0 +1,14 @@
+#contact {
+    
+}
+
+.section--headshot {
+    display: flex;
+    justify-content: center;
+}
+
+.contact--headshot {
+    width: 400px;
+    border-radius: 50%;
+    padding: 30px;
+}

@@ -1,14 +1,14 @@
 import './portfolio.css';
-import Card from './Card'
+import Card from './Card';
 import portfolioData from "../portfolio-data";
 
 const Portfolio = () => {
     const projects = portfolioData.map(project => {
         return (
             <Card
-            key={project.id}
-            project={project}
-          />
+                key={project.id}
+                project={project}
+            />
         );
     });
     return (
