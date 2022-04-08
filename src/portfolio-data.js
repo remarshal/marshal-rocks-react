@@ -11,7 +11,7 @@ const portfolioData = [
         title: 'Meme Generator',
         type: 'React App',
         description: 'Single page app with connection an API for generating random images.  Created a form to capture user text to apply over images to generator a sharable meme.',
-        image: {Portfolio1},
+        image: 'https://source.unsplash.com/WLxQvbMyfas',
         github: 'https://github.com/remarshal/meme-generator',
         site: 'https://remarshal.github.io/meme-generator',
     },
