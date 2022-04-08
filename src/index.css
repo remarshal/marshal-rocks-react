@@ -45,6 +45,11 @@ a {
     color: var(--color-primary);
     transition: var(--transition);
     padding-right: 10px;
+    font-family: "Poppins", sans-serif;
+}
+
+input, textarea {
+    font-family: "Poppins", sans-serif;
 }
 
 a:hover {
