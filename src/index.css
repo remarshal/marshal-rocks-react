@@ -84,7 +84,7 @@ img {
 
 section {
     margin-top: 8rem;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 section > h2, section > h5 {
@@ -177,6 +177,11 @@ margin-bottom: 3rem;
 
     section {
         margin-top: 6rem;
+    }
+
+    .section-title {
+        max-width: 75%;
+        margin: 2rem auto 1rem;
     }
 }
 
