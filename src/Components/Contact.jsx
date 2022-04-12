@@ -8,7 +8,7 @@ const Contact = () => {
         <div>
             <section id='contact'>
                 <div className="section-title">
-                    <h2>Contact</h2>
+                    <h2>Get in Touch</h2>
                     <h4>I'm excited to connect with you!</h4>
                     <div className='section--headshot'>
                         <img src={headshot} className="contact--headshot" alt="marshal headshot" />
