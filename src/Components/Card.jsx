@@ -10,8 +10,8 @@ const Card = (props) => {
                 <div className='card--info'>
                     <h3>{props.project.title}</h3>
                     <h5>{props.project.type}</h5>
-                    <a href={props.project.github} target='_blank' className='btn'>Github</a>
-                    <a href={props.project.site} target='_blank' className='btn btn-primary'>Live Site</a>
+                    <a href={props.project.github} target='_blank' className='btn btn--card'>Github</a>
+                    <a href={props.project.site} target='_blank' className='btn btn-primary btn--card'>Live Site</a>
                 </div>
             </article>
         </div>
