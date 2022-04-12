@@ -52,6 +52,10 @@
     font-size: 2rem;
 }
 
+.about--card:hover > .about--icons {
+    color: var(--color-primary);
+}
+
 .about--cards p {
     margin: 2rem;
     color: var(--color-dark);
