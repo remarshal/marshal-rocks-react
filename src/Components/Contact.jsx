@@ -3,6 +3,8 @@ import headshot from '../assets/img/marshal-sq.jpg';
 import { MdOutlineEmail } from 'react-icons/md';
 import { RiMessengerLine } from 'react-icons/ri';
 
+
+
 const Contact = () => {
     return (
         <div>
@@ -33,6 +35,7 @@ const Contact = () => {
                         <input type="text" name='name' placeholder='Your name' required />
                         <input type="email" name='email' placeholder='Your email' required />
                         <textarea name='message' rows="8" placeholder='Your message' required></textarea>
+                        <div className="g-recaptcha" data-sitekey="6LduNoIfAAAAALUtWUdDcyf-QONY8EFycXYYRsXr"></div>
                         <div className='contact--btn'>
                             <button type='submit' className='btn btn-primary'>Send Message</button>
                         </div>
