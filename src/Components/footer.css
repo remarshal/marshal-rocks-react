@@ -1,0 +1,42 @@
+footer {
+    background-color: var(--color-primary);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 7rem;
+}
+
+footer a {
+    color: var(--color-white);
+
+}
+
+footer h1 {
+    margin-bottom: -2rem;
+    color: var(--color-white);
+}
+
+footer h1 span {
+    margin: 0;
+    font-weight: 500;
+    line-height: 56px;
+    color: var(--color-dark);
+}
+
+.footer--social {
+    margin: 0;
+    padding: 0px 0px;
+    font-size: 25px;
+}
+
+.footer--social :hover {
+    color: var(--color-dark);
+}
+
+.copyright {
+    font-family: "Poppins", sans-serif;
+}
+
+.credits {
+
+}
