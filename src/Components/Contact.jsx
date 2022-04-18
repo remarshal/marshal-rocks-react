@@ -1,11 +1,26 @@
 import './contact.css';
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
 import headshot from '../assets/img/marshal-sq.jpg';
 import { MdOutlineEmail } from 'react-icons/md';
 import { RiMessengerLine } from 'react-icons/ri';
 
-
-
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_marshal.rocks', 'marshal.rocks_contact', form.current, 'VeMG_pfy8u9t4JVXU')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+
+        e.target.reset();
+    };
+
     return (
         <div>
             <section id='contact'>
@@ -31,11 +46,11 @@ const Contact = () => {
                             <a href='https://m.me/marshal.walden' target="_blank">Send Message</a>
                         </article>
                     </div>
-                    <form action="">
+                    <form ref={form} onSubmit={sendEmail}>
                         <input type="text" name='name' placeholder='Your name' required />
                         <input type="email" name='email' placeholder='Your email' required />
                         <textarea name='message' rows="8" placeholder='Your message' required></textarea>
-                        <div className="g-recaptcha" data-sitekey="6LduNoIfAAAAALUtWUdDcyf-QONY8EFycXYYRsXr"></div>
+                        {/* <div className="g-recaptcha" data-sitekey="6LduNoIfAAAAALUtWUdDcyf-QONY8EFycXYYRsXr"></div> */}
                         <div className='contact--btn'>
                             <button type='submit' className='btn btn-primary'>Send Message</button>
                         </div>
