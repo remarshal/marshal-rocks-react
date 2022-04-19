@@ -98,7 +98,6 @@ img {
 
 section {
   margin-top: 8rem;
-  /* height: 100vh; */
 }
 
 section > h2,
@@ -164,9 +163,9 @@ section > h5 {
   position: absolute;
   display: block;
   width: 120px;
-  height: 1px;
-  background: var(--color-pale);
-  bottom: 1px;
+  height: 3px;
+  background: var(--color-accent);
+  bottom: 0px;
   left: calc(50% - 60px);
 }
 .section-title h2::after {

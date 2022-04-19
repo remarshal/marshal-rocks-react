@@ -28,6 +28,7 @@
 .skills--icons {
     color: var(--color-white);
     font-size: 4rem;
+    margin-top: 1rem;
 }
 
 .skills--card:hover > .skills--icons {
@@ -37,6 +38,10 @@
 .skills--cards p {
     margin: 2rem;
     color: var(--color-dark);
+}
+
+.btn--card {
+    margin: 0rem 0rem 1.2rem 1rem;
 }
 
 /* =============================== MEDIA QUERIES (MEDIUM DEVICES) =============================== */

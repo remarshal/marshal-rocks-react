@@ -11,7 +11,7 @@ const Skills = () => {
         <section id='skills'>
             <div className="section-title">
                 <h2>Skills & Tools</h2>
-                <h4>The skills, tools and technologies I use to bring your products to life.</h4>
+                <h5>The skills, tools and technologies I use to bring your products to life.</h5>
             </div>
             <div className="container skills--container">
                 <div className="skills--content">
@@ -38,7 +38,7 @@ const Skills = () => {
                         </article>
                         <article className='skills--card'>
                             <SiGnubash className='skills--icons' />
-                            <h5>Bash</h5>
+                            <h5>Git Bash</h5>
                         </article>
                         <article className='skills--card'>
                             <SiGithub className='skills--icons' />
@@ -67,8 +67,8 @@ const Skills = () => {
                     </div>
                     <h2>Currently working on:</h2>
                     <p>Improving my skills in, and understanding of React and vanilla JavaScript.  Also, having fun with #100DaysOfCode challenge building and creating projects.</p>
-                    <a href="https://instagram.com/marshal.rocks" target="_blank" className='btn'>Follow my journey</a>
-                    <a href='#contact' className='btn btn-primary'>Let's connect!</a>
+                    <a href="https://instagram.com/marshal.rocks" target="_blank" className='btn btn--card'>Follow my journey</a>
+                    <a href='#contact' className='btn btn-primary btn--card'>Let's connect!</a>
                 </div>
             </div>
         </section>
