@@ -151,13 +151,13 @@ section > h5 {
   padding-bottom: 30px;
 }
 .section-title h2 {
-  font-size: 32px;
+  font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: var(--color-dark)
+  color: var(--color-primary)
 }
 .section-title h2::before {
   content: "";
