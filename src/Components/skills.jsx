@@ -1,7 +1,7 @@
 import React from 'react';
 import './skills.css';
 import { FiUsers, FiAward} from 'react-icons/fi';
-import {RiComputerLine} from 'react-icons/ri'
+import { RiComputerLine } from 'react-icons/ri'
 
 const Skills = () => {
     return (
