@@ -1,29 +1,68 @@
 import React from 'react';
 import './skills.css';
-import { FiUsers, FiAward} from 'react-icons/fi';
-import { RiComputerLine } from 'react-icons/ri'
+import { AiFillApi } from 'react-icons/ai';
+import { SiJavascript, SiCss3, SiHtml5, SiJquery, SiReact, SiGithub, SiGnubash, SiWordpress } from 'react-icons/si';
+import { VscCode } from 'react-icons/vsc';
+import { MdPhonelink } from 'react-icons/md';
+import { FaSass } from 'react-icons/fa';
 
 const Skills = () => {
     return (
         <section id='skills'>
             <div className="section-title">
                 <h2>Skills & Tools</h2>
-                <h4>My toolbox of skills</h4>
+                <h4>The skills, tools and technologies I use to bring your products to life.</h4>
             </div>
             <div className="container skills--container">
                 <div className="skills--content">
                     <div className="skills--cards">
                         <article className='skills--card'>
-                            <FiUsers className='skills--icons' />
+                            <SiHtml5 className='skills--icons' />
                             <h5>HTML5</h5>
                         </article>
                         <article className='skills--card'>
-                            <FiAward className='skills--icons' />
+                            <SiCss3 className='skills--icons' />
                             <h5>CSS3</h5>
                         </article>
                         <article className='skills--card'>
-                            <RiComputerLine className='skills--icons' />
+                            <SiJavascript className='skills--icons' />
                             <h5>JavaScript</h5>
+                        </article>
+                        <article className='skills--card'>
+                            <SiJquery className='skills--icons' />
+                            <h5>jQuery</h5>
+                        </article>
+                        <article className='skills--card'>
+                            <SiReact className='skills--icons' />
+                            <h5>React</h5>
+                        </article>
+                        <article className='skills--card'>
+                            <SiGnubash className='skills--icons' />
+                            <h5>Bash</h5>
+                        </article>
+                        <article className='skills--card'>
+                            <SiGithub className='skills--icons' />
+                            <h5>Github</h5>
+                        </article>
+                        <article className='skills--card'>
+                            <AiFillApi className='skills--icons' />
+                            <h5>APIs</h5>
+                        </article>
+                        <article className='skills--card'>
+                            <FaSass className='skills--icons' />
+                            <h5>SASS</h5>
+                        </article>
+                        <article className='skills--card'>
+                            <VscCode className='skills--icons' />
+                            <h5>VS Code</h5>
+                        </article>
+                        <article className='skills--card'>
+                            <MdPhonelink className='skills--icons' />
+                            <h5>Responsive Websites</h5>
+                        </article>
+                        <article className='skills--card'>
+                            <SiWordpress className='skills--icons' />
+                            <h5>Wordpress</h5>
                         </article>
                     </div>
                     <h2>Currently working on:</h2>

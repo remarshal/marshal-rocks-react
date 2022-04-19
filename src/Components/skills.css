@@ -5,14 +5,15 @@
 
 .skills--cards {
     display: flex;
+    flex-wrap: wrap;
     gap: 1.5rem;
+    justify-content: center;
 }
 
 .skills--card {
     background: linear-gradient(var(--color-primary), transparent);
     border: 1px linear-gradient(var(--color-primary), transparent);
     transition: var(--transition);
-    text-align: center;
     padding: .75rem 1.2rem;
     border-radius: .4rem;    
     cursor: pointer;
@@ -26,7 +27,7 @@
 
 .skills--icons {
     color: var(--color-white);
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 .skills--card:hover > .skills--icons {
