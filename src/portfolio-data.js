@@ -5,7 +5,7 @@ export default [
         title: 'Meme Generator',
         type: 'React App',
         description: 'Single page app with connection an API for generating random images.  Created a form to capture user text to apply over images to generator a sharable meme.',
-        image: '../images/portfolio/portfolio-1.png',
+        image: '../images/portfolio/portfolio-pottery.png',
         github: 'https://github.com/remarshal/meme-generator',
         site: 'https://remarshal.github.io/meme-generator',
     },

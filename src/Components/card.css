@@ -1,34 +1,31 @@
 .cards {
     background: var(--color-white);
-    border: 1px solid var(--color-pale-varient);
-    border-radius: 2rem;
+    border-radius: 1rem;
     overflow: hidden;
     transition: var(transition);
-    height: 525px;
+    display: grid;
+    grid-template-columns: 50% 35%;
+    gap: 2rem;
+    /* height: 525px; */
 }
 
-.cards:hover {
-    border: 1px solid var(--color-primary);
-    border-radius: 2rem;
+.card--img:hover {
     transition: var(transition);
     overflow: hidden;
+    cursor: pointer;
+    /* background: var(--color-mid); */
 }
 
 .card--img {
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
+    margin: 20px 0px 20px 0px;
     /* padding: 1rem;
     margin: 0.5em; */
 }
 
-.card--img:hover {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, .2));
-    
-}
-
 .cards h3 {
     margin: 1.2rem;
-    height: 100px;
 }
 
 .cards h5 {
@@ -42,8 +39,19 @@
 /* =============================== MEDIA QUERIES (MEDIUM DEVICES) =============================== */
 
 @media screen and (max-width: 1024px) {
+    .cards {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+/* =============================== MEDIA QUERIES (SMALL DEVICES) =============================== */
+
+@media screen and (max-width: 600px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+    
     .card--info {
         text-align: center;
     }
-
 }
