@@ -16,8 +16,7 @@
 }
 
 .skills--card {
-    background: linear-gradient(var(--color-primary), transparent);
-    border: 1px linear-gradient(var(--color-primary), transparent);
+    border: 1px solid var(--color-primary);
     transition: var(--transition);
     padding: .75rem 1.2rem;
     border-radius: .4rem;    
@@ -26,12 +25,13 @@
 }
 
 .skills--card:hover {
-    background: transparent;
+    background: var(--color-white);
     border: 1px solid var(--color-primary);
+    /* border: 1px solid var(--color-pale-varient); */
 }
 
 .skills--icons {
-    color: var(--color-pale-varient);
+    color: var(--color-primary);
     font-size: 4rem;
     margin-top: 1rem;
 }

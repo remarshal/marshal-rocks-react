@@ -11,7 +11,7 @@ const Skills = () => {
         <section id='skills'>
             <div className="section-title">
                 <h2>Skills & Tools</h2>
-                <h5>The skills, tools and technologies I use to bring your products to life.</h5>
+                <h5>Skills, tools, and technologies I use to bring products to life.</h5>
             </div>
             <div className="container skills--container">
                 <div className="skills--content">
