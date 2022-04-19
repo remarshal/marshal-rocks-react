@@ -1,9 +1,9 @@
 import React from 'react';
-import './skill.css';
+import './skills.css';
 import { FiUsers, FiAward} from 'react-icons/fi';
 import {RiComputerLine} from 'react-icons/ri'
 
-const skills = () => {
+const Skills = () => {
     return (
         <section id='skills'>
             <div className="section-title">
@@ -36,4 +36,4 @@ const skills = () => {
     );
 };
 
-export default skills;
+export default Skills;
