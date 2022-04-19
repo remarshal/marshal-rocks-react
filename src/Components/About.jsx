@@ -20,17 +20,17 @@ const About = () => {
                     <div className="about--cards">
                         <article className='about--card'>
                             <FiUsers className='about--icons' />
-                            <h5>Experience</h5>
+                            <h5>HTML | CSS</h5>
                             <h6>20+ years of Information Technology</h6>
                         </article>
                         <article className='about--card'>
                             <FiAward className='about--icons' />
-                            <h5>Certificates</h5>
+                            <h5>Bootstrap</h5>
                             <h6>Bootstrap | React | Node.js</h6>
                         </article>
                         <article className='about--card'>
                             <RiComputerLine className='about--icons' />
-                            <h5>Focus</h5>
+                            <h5>React</h5>
                             <h6>HTML | CSS | JavaScript</h6>
                         </article>
                     </div>

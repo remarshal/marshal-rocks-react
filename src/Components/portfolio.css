@@ -1,3 +1,8 @@
+#portfolio {
+    background: var(--color-pale-varient);
+    padding: 2rem;
+}
+
 .portfolio--container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

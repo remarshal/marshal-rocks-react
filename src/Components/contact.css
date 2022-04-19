@@ -24,8 +24,8 @@
 }
 
 .contact--option {
-    background: var(--color-pale);
-    border: 1px solid var(--color-pale);
+    background: var(--color-pale-varient);
+    border: 1px solid var(--color-pale-varient);
     border-radius: 5%;
     padding:1.2rem;
     text-align: center;
