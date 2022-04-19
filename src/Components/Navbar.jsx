@@ -1,16 +1,19 @@
 import './navbar.css';
 import { useState } from 'react';
-import { AiOutlineHome } from 'react-icons/ai';
-import { BsPerson } from 'react-icons/bs';
-import { CgWebsite } from 'react-icons/cg';
-import { MdOutlineEmail } from 'react-icons/md';
+import { AiFillHome } from 'react-icons/ai';
+import { SiCodenewbie } from 'react-icons/si';
+import {RiUserFollowFill} from 'react-icons/ri'
+import {GrMultiple} from 'react-icons/gr'
+import { MdOutlineEmail, MdOutlineComputer } from 'react-icons/md';
 
 const Navbar = () => {
     const navItems = [
-        { id: 1, title: "home", icon: <AiOutlineHome />},
-        { id: 2, title: "about", icon: <BsPerson /> },
-        { id: 3, title: "portfolio", icon: <CgWebsite /> },
-        { id: 4, title: "contact", icon: <MdOutlineEmail /> }
+        { id: 1, title: "home", icon: <AiFillHome />},
+        { id: 2, title: "about", icon: <RiUserFollowFill /> },
+        { id: 3, title: "skills", icon: <MdOutlineComputer /> },
+        { id: 4, title: "journey", icon: <SiCodenewbie /> },
+        { id: 5, title: "portfolio", icon: <GrMultiple /> },
+        { id: 6, title: "contact", icon: <MdOutlineEmail /> }
     ];
 
     const [activeId, setActiveId] = useState("");
