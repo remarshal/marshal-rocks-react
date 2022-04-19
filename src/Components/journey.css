@@ -1,0 +1,53 @@
+.journey--container {
+  display: flex;
+}
+
+.journey--content {
+    text-align: center;
+}
+
+.journey--section {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.journey--img {
+  max-width: 65%;
+  border-radius: 5%;
+}
+
+.btn--journey {
+    margin: 3rem 0rem 1.2rem 1rem;
+}
+
+/* =============================== MEDIA QUERIES (MEDIUM DEVICES) =============================== */
+
+@media screen and (max-width: 1024px) {
+  .journey--container {
+    gap: 0;
+  }
+
+  .journey--content {
+    text-align: center;
+  }
+}
+
+/* =============================== MEDIA QUERIES (SMALL DEVICES) =============================== */
+
+@media screen and (max-width: 600px) {
+  .skills--me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+
+  .skills--cards {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-items: center;
+  }
+
+  .skills--card {
+    width: 60%;
+  }
+}

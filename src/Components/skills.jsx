@@ -65,10 +65,6 @@ const Skills = () => {
                             <h5>Wordpress</h5>
                         </article>
                     </div>
-                    <h2>Currently working on:</h2>
-                    <p>Improving my skills in, and understanding of React and vanilla JavaScript.  Also, having fun with #100DaysOfCode challenge building and creating projects.</p>
-                    <a href="https://instagram.com/marshal.rocks" target="_blank" className='btn btn--card'>Follow my journey</a>
-                    <a href='#contact' className='btn btn-primary btn--card'>Let's connect!</a>
                 </div>
             </div>
         </section>

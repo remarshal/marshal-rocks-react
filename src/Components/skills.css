@@ -1,3 +1,8 @@
+#skills {
+    background-color: var(--color-pale-varient);
+    padding: 4rem 0rem;
+}
+
 .skills--container {
     display: flex;
     gap: 15%;
@@ -26,7 +31,7 @@
 }
 
 .skills--icons {
-    color: var(--color-white);
+    color: var(--color-pale-varient);
     font-size: 4rem;
     margin-top: 1rem;
 }
@@ -40,9 +45,7 @@
     color: var(--color-dark);
 }
 
-.btn--card {
-    margin: 0rem 0rem 1.2rem 1rem;
-}
+
 
 /* =============================== MEDIA QUERIES (MEDIUM DEVICES) =============================== */
 
