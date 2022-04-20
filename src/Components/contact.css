@@ -15,7 +15,7 @@
 
 .contact--container {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 50%;
     gap: 5%;
     align-items: center;
 }

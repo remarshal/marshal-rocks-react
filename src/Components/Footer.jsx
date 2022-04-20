@@ -6,7 +6,7 @@ const Footer = () => {
         <footer>
                 {/* <a href='#'><h1>Marshal <span>Rocks</span></h1></a> */}
                 <div className="copyright">
-                    &copy; Copyright <strong><span>2022</span></strong>. All Rights Reserved
+                    &copy; Copyright <strong><span>{(new Date().getFullYear())}</span></strong>. All Rights Reserved
                 </div>
                 <div className='footer--social'>
                     <a href="https://instagram.com/marshal.rocks" target="_blank"><BsInstagram /></a>
