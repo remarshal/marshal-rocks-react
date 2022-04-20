@@ -1,5 +1,6 @@
 {
   "name": "marshal-rocks-react",
+  "homepage": "www.marshal.rocks",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
