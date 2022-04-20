@@ -1,9 +1,14 @@
 footer {
     background-color: var(--color-primary);
-    padding: 3rem 0;
-    text-align: center;
-    font-size: 1rem;
+    display: flex;
+    align-items: center;
     margin-top: 7rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.footer--text {
+    margin-right: auto;
 }
 
 footer a {
@@ -24,19 +29,23 @@ footer h1 span {
 }
 
 .footer--social {
-    margin: 0;
-    padding: 0px 0px;
-    font-size: 25px;
+    font-size: 2rem;
+    padding-top: .5rem;
 }
 
 .footer--social :hover {
     color: var(--color-dark);
+    margin: auto;
 }
 
 .copyright {
     font-family: "Poppins", sans-serif;
+    margin-right: auto;
+    margin-left: 4rem;
 }
 
 .credits {
-
+    margin-left: auto;
+    margin-right: 4rem;
+    color: var(--color-dark);
 }

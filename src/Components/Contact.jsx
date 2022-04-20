@@ -31,7 +31,7 @@ const Contact = () => {
                     </div>
                     <div className='section--info'>
                         <h3>Want to get in touch? I'd love to hear from you. Here's how you can do it.</h3>
-                        <p>I believe in motivating others through lifelong learning and inspiration. I share motivational experiences in hopes of connecting with others and building a community on Instagram.</p>
+                        <p>I believe in motivating others through lifelong learning and inspiration. I share motivational experiences in hopes of connecting with others and building a community on <a href='https://instagram.com/marshal.rocks' target='_blank'>Instagram.</a></p>
                     </div>
                 </div>
                 <div className="container contact--container">
