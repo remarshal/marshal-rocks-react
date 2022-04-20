@@ -2,21 +2,20 @@ import './contact.css';
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import headshot from '../assets/img/marshal-sq.jpg';
-import { MdOutlineEmail } from 'react-icons/md';
-import { RiMessengerLine } from 'react-icons/ri';
+import Email from "../assets/img/email.png";
 
 const Contact = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_marshal.rocks', 'marshal.rocks_contact', form.current, 'VeMG_pfy8u9t4JVXU')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
+        e.preventDefault();
+
+        emailjs.sendForm('service_marshal.rocks', 'marshal.rocks_contact', form.current, 'VeMG_pfy8u9t4JVXU')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
 
         e.target.reset();
     };
@@ -30,23 +29,22 @@ const Contact = () => {
                     <div className='section--headshot'>
                         <img src={headshot} className="contact--headshot" alt="marshal headshot" />
                     </div>
+                    <div className='section--info'>
+                        <h3>Want to get in touch? I'd love to hear from you. Here's how you can do it.</h3>
+                        <p>I believe in motivating others through lifelong learning and inspiration. I share motivational experiences in hopes of connecting with others and building a community on Instagram.</p>
+                    </div>
                 </div>
                 <div className="container contact--container">
                     <div className="contact--options">
-                        <article className='contact--option'>
-                            <MdOutlineEmail className='contact--icons' />
-                            <h4>Email</h4>
-                            <h5>sayhi@marshal.rocks</h5>
-                            <a href='mailto:sayhi@marshal.rocks' target="_blank">Send Email</a>
-                        </article>
-                        <article className='contact--option'>
-                            <RiMessengerLine className='contact--icons' />
-                            <h4>Messenger</h4>
-                            <h5>Send Message via Facebook</h5>
-                            <a href='https://m.me/marshal.walden' target="_blank">Send Message</a>
-                        </article>
+                        <div className='contact--option'>
+                            <img src={Email} className='contact-img' alt="email envelope" />
+                        </div>
                     </div>
                     <form ref={form} onSubmit={sendEmail}>
+                        <div className='contact--option'>
+                            <h4>Send An Email Message</h4>
+                            <a href='mailto:sayhi@marshal.rocks' target="_blank">sayhi@marshal.rocks</a>
+                        </div>
                         <input type="text" name='name' placeholder='Your name' required />
                         <input type="email" name='email' placeholder='Your email' required />
                         <textarea name='message' rows="8" placeholder='Your message' required></textarea>
