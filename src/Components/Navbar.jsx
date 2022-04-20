@@ -1,6 +1,6 @@
 import './navbar.css';
 import { useState } from 'react';
-import { AiFillHome } from 'react-icons/ai';
+import { BiHome } from 'react-icons/bi';
 import { SiCodenewbie } from 'react-icons/si';
 import {RiUserFollowFill} from 'react-icons/ri'
 import {GrMultiple} from 'react-icons/gr'
@@ -8,7 +8,7 @@ import { MdOutlineEmail, MdOutlineComputer } from 'react-icons/md';
 
 const Navbar = () => {
     const navItems = [
-        { id: 1, title: "home", icon: <AiFillHome />},
+        { id: 1, title: "home", icon: <BiHome />},
         { id: 2, title: "about", icon: <RiUserFollowFill /> },
         { id: 3, title: "skills", icon: <MdOutlineComputer /> },
         { id: 4, title: "journey", icon: <SiCodenewbie /> },
