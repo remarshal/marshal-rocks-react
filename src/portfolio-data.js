@@ -7,7 +7,7 @@ export default [
         description: 'Don\'t let the simplicity fool you, this single page app packs a lot under the hood!  For example, the randomly generated meme images make use of Math and an API connection.  While the text is captured using State and Effect to apply over the image.',
         image: '../images/portfolio/portfolio-1.png',
         github: 'https://github.com/remarshal/meme-generator',
-        site: 'https://remarshal.github.io/meme-generator',
+        site: 'https://remarshal-meme-generator.netlify.app/',
     },
     {
         id: 2,
@@ -16,7 +16,7 @@ export default [
         description: 'I built this color guessing game using vanilla JavaScript.  It demonstrates my ability to combine and apply skills learned through various lessons.  And it\'s fun to play!',
         image: '../images/portfolio/portfolio-2.png',
         github: 'https://github.com/remarshal/color-game',
-        site: 'https://remarshal.github.io/color-game',
+        site: 'https://remarshal.github.io/color-game/',
     },
     {
         id: 3,
@@ -34,7 +34,7 @@ export default [
         description: 'This was my Initial project learning the basics of React while applying the skills developed in our earlier classes of HTML, CSS, and JavaScript.  Overall, a good foundational project.',
         image: '../images/portfolio/portfolio-4.png',
         github: 'https://github.com/remarshal/travel-journal',
-        site: 'https://remarshal.github.io/travel-journal/',
+        site: 'https://remarshal-travel-journal.netlify.app/',
     },
     {
         id: 5,
@@ -43,7 +43,7 @@ export default [
         description: 'In additional to our case study project, all of us in class collaborated together on this fictional campsite website while learning and applying our new Bootstrap skills.',
         image: '../images/portfolio/portfolio-5.png',
         github: 'https://github.com/remarshal/newcamp-site',
-        site: 'https://remarshal.github.io/newcamp-site/',
+        site: 'https://remarshal-nucamp-bootstrap.netlify.app/',
     },
     {
         id: 6,
@@ -52,6 +52,6 @@ export default [
         description: 'To demonstrate the differences between Bootstrap and React, our class project was to recreate the fictional campsite using React.  Having components makes managing larger website much more manageable!',
         image: '../images/portfolio/portfolio-6.png',
         github: 'https://github.com/remarshal/React-NuCamp',
-        site: 'https://remarshal.github.io/React-NuCamp/',
+        site: 'https://remarshal-nucamp-react.netlify.app//',
     },
 ];
