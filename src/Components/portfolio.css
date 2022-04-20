@@ -1,5 +1,6 @@
 #portfolio {
     background: var(--color-pale-varient);
+    padding-bottom: 5rem;
 }
 
 .portfolio--container {

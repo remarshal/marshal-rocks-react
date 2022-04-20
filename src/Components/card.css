@@ -1,5 +1,5 @@
 .cards {
-    background: var(--color-white);
+    /* background: var(--color-white); */
     border-radius: 1rem;
     overflow: hidden;
     transition: var(transition);
