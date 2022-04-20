@@ -11,7 +11,7 @@ const Journey = () => {
             </div>
             <div className="container journey--container">
                 <div className="journey--content">
-                    <p>Improving my skills in React and vanilla JavaScript.  Also having fun with #100DaysOfCode challenge while building and creating projects.</p>
+                    <p>Improving my skills in React and vanilla JavaScript.  Also having fun with <a href='https://instagram.com/marshal.rocks' target='_blank'>#100DaysOfCode</a>challenge while building and creating projects.</p>
                     <a href="https://instagram.com/marshal.rocks" target="_blank" className='btn btn--journey'>Follow my journey</a>
                     <a href='#contact' className='btn btn-primary btn--journey'>Let's connect!</a>
                 </div>

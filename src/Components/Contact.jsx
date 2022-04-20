@@ -45,9 +45,9 @@ const Contact = () => {
                             <h4>Send An Email Message</h4>
                             <a href='mailto:sayhi@marshal.rocks' target="_blank">sayhi@marshal.rocks</a>
                         </div>
-                        <input type="text" name='name' placeholder='Your name' required />
-                        <input type="email" name='email' placeholder='Your email' required />
-                        <textarea name='message' rows="8" placeholder='Your message' required></textarea>
+                        <input type="text" name='name' placeholder='Name*' required />
+                        <input type="email" name='email' placeholder='Email*' required />
+                        <textarea name='message' rows="8" placeholder='Your message*' required></textarea>
                         {/* <div className="g-recaptcha" data-sitekey="6LduNoIfAAAAALUtWUdDcyf-QONY8EFycXYYRsXr"></div> */}
                         <div className='contact--btn'>
                             <button type='submit' className='btn btn-primary'>Send Message</button>

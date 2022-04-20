@@ -30,9 +30,9 @@ const About = () => {
                 </div>
                 <div className="about--content">
                     <h4>Results-driven Front-End Developer</h4>
-                    <p>I'm currently enrolled in the Full-Stack Web Developer bootcamp with NuCamp and already received 3 certifications.  The final two remaining are mobile development with React Native and back-end databases with Node.js and MongoDB.</p>
-                    <p>I have a passion bringing the technical and creative aspects of web development to each project.  Working to bridge these together helps the user to feel a connection to the experience of the design.</p>
-                    <p>I am happiest when creating, learning, and exploring how to bring websites to life.  I'm currently managing systems, networks, and other technical IT administration.  Occasionally I'm available for freelance work, feel free to reach out and say hi!</p>
+                    <p>I'm currently enrolled in the <a href='https://nucamp.co' target='_blank'>Full-Stack Web + Mobile Developement</a>bootcamp from <a href='https://nucamp.co' target='_blank'>NuCamp.</a>I'm proud of my first 3 certifications displayed above!  The final two remaining are mobile development with React Native and back-end databases with Node.js and MongoDB.</p>
+                    <p>I have a passion bringing the technical and creative aspects of web development to each project.  Working to bridge these together helps the user feel a connection and to experience the design.  Connecting and interacting with websites encourages more engagement.</p>
+                    <p>I am happiest when creating, learning, and exploring how to bring websites to life.  My experience managing systems, networks, and IT administration puts me in a unique position to troubleshoot and solve problems .  Occasionally I'm available for freelance work, feel free to reach out and say hi!</p>
                     <a href='#contact' className='btn btn-primary'>Let's connect!</a>
                 </div>
             </div>
