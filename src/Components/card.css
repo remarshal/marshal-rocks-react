@@ -4,7 +4,7 @@
     overflow: hidden;
     transition: var(transition);
     display: grid;
-    grid-template-columns: 50% 35%;
+    grid-template-columns: 50% 50%;
     gap: 2rem;
     /* height: 525px; */
 }
@@ -24,24 +24,8 @@
     margin: 0.5em; */
 }
 
-.cards h3 {
-    margin: 1.2rem;
-}
-
-.cards h5 {
-    margin: 1.2rem;
-}
-
 .btn--card {
-    margin: 0rem 0rem 1.2rem 1rem;
-}
-
-/* =============================== MEDIA QUERIES (MEDIUM DEVICES) =============================== */
-
-@media screen and (max-width: 1024px) {
-    .cards {
-        grid-template-columns: 50% 50%;
-    }
+    margin-right: 15px;
 }
 
 /* =============================== MEDIA QUERIES (SMALL DEVICES) =============================== */
