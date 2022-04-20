@@ -22,7 +22,7 @@ export default [
         id: 3,
         title: 'Pottery Studio Store',
         type: 'Bootstrap Ecommerce',
-        description: 'Ecommerce site built using Bootstrap.  Website to created in conjuction while completing the NuCamp course as an assignement.',
+        description: 'Ecommerce site built using Bootstrap.  Website project created in conjuction while completing the NuCamp course as an assignement.',
         image: '../images/portfolio/portfolio-3.png',
         github: 'https://github.com/remarshal/pottery-studio',
         site: 'https://remarshal.github.io/Pottery-Studio/',

@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 2rem;
-    /* height: 525px; */
+    padding-top: 5rem;
 }
 
 .card--img:hover {
@@ -20,8 +20,10 @@
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     margin: 20px 0px 20px 0px;
-    /* padding: 1rem;
-    margin: 0.5em; */
+}
+
+.card--info {
+    padding: 0 1rem 0 1rem;
 }
 
 .btn--card {
