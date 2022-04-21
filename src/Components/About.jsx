@@ -31,8 +31,8 @@ const About = () => {
                 <div className="about--content">
                     <h4>Results-driven Front-End Developer</h4>
                     <p>I'm currently enrolled in the <a href='https://nucamp.co' target='_blank'>Full-Stack Web + Mobile Developement</a>bootcamp from <a href='https://nucamp.co' target='_blank'>NuCamp.</a>I'm proud of my first 3 certifications displayed above!  The final two remaining are mobile development with React Native and back-end databases with Node.js and MongoDB.</p>
-                    <p>I have a passion bringing the technical and creative aspects of web development to each project.  Working to bridge these together helps the user feel a connection and to experience the design.  Connecting and interacting with websites encourages more engagement.</p>
-                    <p>I am happiest when creating, learning, and exploring how to bring websites to life.  My experience managing systems, networks, and IT administration puts me in a unique position to troubleshoot and solve problems .  Occasionally I'm available for freelance work, feel free to reach out and say hi!</p>
+                    <p>I have a passion bringing the technical and creative aspects of web development to each project. I work to bridge these together thereby creating a user experience to the design. Connecting and interacting with a website encourages more community engagement.</p>
+                    <p>I am happiest when creating, learning, and exploring how to bring websites to life. My experience managing systems, networks, and IT administration puts me in a unique position to troubleshoot and solve problems on my coding journey.  Occasionally I'm available for freelance work, feel free to reach out and say hi!</p>
                     <a href='#contact' className='btn btn-primary'>Let's connect!</a>
                 </div>
             </div>
