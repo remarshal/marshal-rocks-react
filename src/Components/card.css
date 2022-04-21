@@ -19,7 +19,7 @@
 .card--img {
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
-    margin: 20px 0px 20px 0px;
+    margin-top: 30px;
 }
 
 .card--info {

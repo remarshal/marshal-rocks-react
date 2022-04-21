@@ -5,7 +5,7 @@ const Card = (props) => {
         <div>
             <article className="cards" key={props.project.id}>
                 <div className="card--img">
-                    <img src={props.project.image} alt={props.project.title} />
+                    <a href={props.project.site} target='_blank'><img src={props.project.image} alt={props.project.title} /></a>
                 </div>
                 <div className='card--info'>
                     <h3>{props.project.title}</h3>
