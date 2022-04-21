@@ -18,7 +18,8 @@
 }
 
 .btn--journey {
-    margin: 3rem 0rem 1.2rem 1rem;
+  margin-right: 15px;
+  margin-top: 15px;
 }
 
 /* =============================== MEDIA QUERIES (MEDIUM DEVICES) =============================== */
