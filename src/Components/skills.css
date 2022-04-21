@@ -20,7 +20,6 @@
     transition: var(--transition);
     padding: .75rem 1.2rem;
     border-radius: .4rem;    
-    cursor: pointer;
     width:150px;
 }
 
