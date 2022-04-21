@@ -68,6 +68,10 @@ input, textarea {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
+
+    .section--info {
+        margin: 0 10% 0 10%;
+    }
 }
 
 /* =============================== MEDIA QUERIES (SMALL DEVICES) =============================== */
@@ -81,5 +85,9 @@ input, textarea {
 
     .contact--btn {
         text-align: center;
+    }
+
+    .section--info {
+        margin: 0;
     }
 }
