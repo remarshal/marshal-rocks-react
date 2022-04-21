@@ -1,7 +1,7 @@
 .scrolltop {
     position: fixed;
     right: 0;
-    bottom: 0;
+    bottom: 3rem;
     z-index: 9997;
     transition: all 0.5s;
     padding: 15px;
