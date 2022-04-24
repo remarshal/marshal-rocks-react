@@ -49,3 +49,35 @@ footer h1 span {
     margin-right: 4rem;
     color: var(--color-dark);
 }
+
+/* =============================== MEDIA QUERIES (MEDIUM DEVICES) =============================== */
+
+@media screen and (max-width: 1024px) {
+    footer {
+        margin-top: 0rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+}
+
+/* =============================== MEDIA QUERIES (SMALL DEVICES) =============================== */
+
+@media screen and (max-width: 600px) {
+    footer h1 {
+        margin-bottom: 0rem;
+    }
+    
+    .footer--social {
+        padding-top: .5rem;
+        padding-left: 1rem;
+    }
+    
+    .copyright {
+        margin-left: .5rem;
+    }
+    
+    .credits {
+        margin-right: 0rem;
+
+    }
+}
