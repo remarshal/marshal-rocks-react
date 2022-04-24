@@ -24,3 +24,10 @@
     list-style: none;
   }
   
+  /* =============================== MEDIA QUERIES (SMALL DEVICES) =============================== */
+
+@media screen and (max-width: 600px) {
+  .scrolltop {
+    bottom: 6rem;
+  }
+}
