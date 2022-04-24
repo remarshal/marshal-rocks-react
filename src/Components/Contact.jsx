@@ -37,7 +37,7 @@ const Contact = () => {
                 <div className="container contact--container">
                     <div className="contact--options">
                         <div className='contact--option'>
-                            <img src={Email} className='contact-img' alt="email envelope" />
+                            <img src={Email} className='contact--img' alt="email envelope" />
                         </div>
                     </div>
                     <form ref={form} onSubmit={sendEmail}>
