@@ -8,6 +8,7 @@ import Contact from "./Components/Contact"
 import Footer from "./Components/Footer";
 import Journey from "./Components/Journey";
 import ScrollTop from "./Components/ScrollTop";
+import Testimonials from "./Components/Testimonials";
 
 const App = () => {
     return (
@@ -19,6 +20,7 @@ const App = () => {
             <Skills />
             <Journey />
             <Portfolio />
+            <Testimonials />
             <Contact />
             <Footer />
         </div>
