@@ -1,0 +1,55 @@
+.testimonial--container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.testimonial {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2.3rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    align-self: center;
+}
+
+.testimonial--img {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(-10deg);
+}
+
+.testimonial--img:hover {
+    border-radius: 2rem;
+    transform: rotate(0);
+    transition: var(--transition)
+}
+
+/* =============================== MEDIA QUERIES (MEDIUM DEVICES) =============================== */
+
+@media screen and (max-width: 1024px) {
+    .testimonial--container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .testimonial {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+}
+
+.testimonial--info {
+    text-align: center;
+}
+
+/* =============================== MEDIA QUERIES (SMALL DEVICES) =============================== */
+
+@media screen and (max-width: 600px) {
+    .testimonial {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
+
+}
+
