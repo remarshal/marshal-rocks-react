@@ -11,7 +11,7 @@ const Testimonials = () => {
             <section id='testimonials'>
                 <div className="section-title">
                     <h2>Testimonials</h2>
-                    <h4>I'm fortunate to have worked with amazing people, here's what they've said.</h4>
+                    <h4>I've worked with amazing people, here's what they've said.</h4>
                 </div>
                 <div className="container testimonial--container">
                     <article className="testimonial">
@@ -32,7 +32,7 @@ const Testimonials = () => {
                     <article className="testimonial">
                         <div className="header">
                             <a href="#" target='_blank'><img className="client--img" src={Olivia} alt="My instructor Olivia from NuCamp" /></a>
-                            <h5 className='cleint--name'>Olivia Culver</h5>
+                            <h5 className='client--name'>Olivia Culver</h5>
                             <div className="client--title">
                                 <p className='client--title'>NuCamp Bootstrap Instructor <a href="#" target='_blank' >Digital & Web Coordinator</a></p>
                             </div>
