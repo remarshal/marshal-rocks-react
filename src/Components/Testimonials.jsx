@@ -8,7 +8,7 @@ import Pedro from '../assets/img/testimonials/pedro.jpg';
 const Testimonials = () => {
     return (
         <div>
-            <section id='reviews'>
+            <section id='testimonials'>
                 <div className="section-title">
                     <h2>Testimonials</h2>
                     <h4>I wouldn't be where I am today without my amazing instructors, here's what they've said.</h4>

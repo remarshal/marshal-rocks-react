@@ -12,7 +12,7 @@ const Navbar = () => {
         { id: 3, title: "skills", icon: <MdOutlineComputer /> },
         { id: 4, title: "journey", icon: <SiCodenewbie /> },
         { id: 5, title: "portfolio", icon: <MdOutlineLibraryBooks /> },
-        { id: 6, title: "reviews", icon: <MdOutlineRateReview /> },
+        { id: 6, title: "testimonials", icon: <MdOutlineRateReview /> },
         { id: 7, title: "contact", icon: <MdOutlineEmail /> }
     ];
 
