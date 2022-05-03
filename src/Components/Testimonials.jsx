@@ -11,16 +11,15 @@ const Testimonials = () => {
             <section id='testimonials'>
                 <div className="section-title">
                     <h2>Testimonials</h2>
-                    <h4>I've worked with amazing people, here's what they've said.</h4>
+                    <h4>I wouldn't be where I am today without my amazing instructors, here's what they've said.</h4>
                 </div>
                 <div className="container testimonial--container">
                     <article className="testimonial">
                         <div className='header'>
                             <div className='img--grid'>
-
-                            <a href="#" target='_blank'><img className="client--img" src={Juan} alt="My instructor Juan from NuCamp" /></a>
+                                <a href="#" target='_blank'><img className="client--img" src={Juan} alt="My instructor Juan from NuCamp" /></a>
                             </div>
-                            <p className='client--name'>Juan Grajales</p>
+                            <h5 className='client--name'>Juan Grajales</h5>
                             <div className='client--title'>
                                 <p>NuCamp React Instructor<br></br> <a href="#" target='_blank' >React Developer</a></p>
                             </div>
@@ -34,10 +33,12 @@ const Testimonials = () => {
                     </article>
                     <article className="testimonial">
                         <div className="header">
-                            <a href="#" target='_blank'><img className="client--img" src={Olivia} alt="My instructor Olivia from NuCamp" /></a>
+                            <div className="img--grid">
+                                <a href="#" target='_blank'><img className="client--img" src={Olivia} alt="My instructor Olivia from NuCamp" /></a>
+                            </div>
                             <h5 className='client--name'>Olivia Culver</h5>
                             <div className="client--title">
-                                <p className='client--title'>NuCamp Bootstrap Instructor <a href="#" target='_blank' >Digital & Web Coordinator</a></p>
+                                <p className='client--title'>NuCamp Bootstrap Instructor <br></br> <a href="#" target='_blank' >Digital & Web Coordinator</a></p>
                             </div>
                         </div>
                         <div className='quote--icons-left' ><ImQuotesLeft /></div>

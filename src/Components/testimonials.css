@@ -1,3 +1,5 @@
+
+
 .container.testimonial--container {
   width: 50%;
 }
@@ -7,13 +9,19 @@
   padding: 2rem;
   border-radius: 2rem;
   user-select: none;
+  margin-bottom: 5rem;
 }
 
 .header {
   display: grid;
-  grid-template-columns: 30% 20% 50%;
+  grid-template-columns: 25% 30% 50%;
   align-items: center;
 }
+
+.img--grid {
+    display: flex;
+    justify-content: center;
+  }
 
 .client--img {
   width: 8rem;
@@ -23,8 +31,7 @@
 }
 
 .client--name {
-  font-weight: bold;
-  color: var(--color-white)
+  color: var(--color-white);
 }
 
 .client--review {
@@ -52,11 +59,6 @@
 @media screen and (max-width: 1024px) {
   .container.testimonial--container {
     width: 70%;
-  }
-
-  .img--grid {
-    display: flex;
-    justify-content: center;
   }
 
   .header {
