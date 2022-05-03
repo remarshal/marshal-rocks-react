@@ -26,6 +26,7 @@
   aspect-ratio: 1/1;
   border-radius: 50%;
   border: 0.4rem solid var(--color-primary);
+  background-color: var(--color-pale-varient);
 }
 
 .client--img:hover {
@@ -36,7 +37,7 @@
 }
 
 .client--name {
-  color: var(--color-pale);
+  color: var(--color-pale-varient);
 }
 
 .client--name:hover {
