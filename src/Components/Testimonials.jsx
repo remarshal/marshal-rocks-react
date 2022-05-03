@@ -16,7 +16,10 @@ const Testimonials = () => {
                 <div className="container testimonial--container">
                     <article className="testimonial">
                         <div className='header'>
+                            <div className='img--grid'>
+
                             <a href="#" target='_blank'><img className="client--img" src={Juan} alt="My instructor Juan from NuCamp" /></a>
+                            </div>
                             <p className='client--name'>Juan Grajales</p>
                             <div className='client--title'>
                                 <p>NuCamp React Instructor<br></br> <a href="#" target='_blank' >React Developer</a></p>

@@ -1,5 +1,5 @@
 .container.testimonial--container {
-  width: 40%;
+  width: 50%;
 }
 
 .testimonial {
@@ -24,10 +24,7 @@
 
 .client--name {
   font-weight: bold;
-  color: white;
-}
-
-.client--title {
+  color: var(--color-white)
 }
 
 .client--review {
@@ -54,11 +51,12 @@
 
 @media screen and (max-width: 1024px) {
   .container.testimonial--container {
-    width: 60%;
+    width: 70%;
   }
 
-  .client--img {
-
+  .img--grid {
+    display: flex;
+    justify-content: center;
   }
 
   .header {
