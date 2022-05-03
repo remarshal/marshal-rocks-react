@@ -38,7 +38,7 @@ const Testimonials = () => {
                             </div>
                             <h5 className='client--name'>Olivia Culver</h5>
                             <div className="client--title">
-                                <p className='client--title'>NuCamp Bootstrap Instructor <br></br> <a href="#" target='_blank' >Digital & Web Coordinator</a></p>
+                                <p>NuCamp Bootstrap Instructor <br></br> <a href="#" target='_blank' >Digital & Web Coordinator</a></p>
                             </div>
                         </div>
                         <div className='quote--icons-left' ><ImQuotesLeft /></div>
