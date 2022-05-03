@@ -1,3 +1,6 @@
+.section--contact {
+    background-color: var(--color-pale-varient);
+}
 .section--headshot {
     display: flex;
     justify-content: center;
