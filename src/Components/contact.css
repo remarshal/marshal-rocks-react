@@ -1,5 +1,6 @@
 .section--contact {
     background-color: var(--color-pale-varient);
+    padding-top: 3rem;
 }
 .section--headshot {
     display: flex;
@@ -7,7 +8,7 @@
 }
 
 .section--info {
-    margin: 0 20% 0 20%;
+    margin: 0 20% 5% 20%;
 }
 
 .contact--headshot {
@@ -32,6 +33,7 @@
 .contact--option {
     display: flex;
     flex-direction: column;
+    margin-top: 3rem;
 }
 
 .contact--option h4 {
