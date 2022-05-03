@@ -1,46 +1,39 @@
-.testimonial--container {
+.container-left {
     display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
-}
-
-.testimonial {
-    width: 100%;
-    aspect-ratio: 1/1;
-    border-radius: 2.3rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
-    display: grid;
-    align-self: center;
+    grid-template-columns: 40% 50%;
+    gap: 5%;
+    text-align: left;
 }
 
 .testimonial--img {
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(-10deg);
+    border-radius: 50%;
 }
 
-.testimonial--img:hover {
-    border-radius: 2rem;
-    transform: rotate(0);
-    transition: var(--transition)
+.testimonial--card {
+display: flex;
+}
+
+.testimonial {
+
+}
+
+.quote--icons-right {
+    text-align: right;
 }
 
 /* =============================== MEDIA QUERIES (MEDIUM DEVICES) =============================== */
 
 @media screen and (max-width: 1024px) {
-    .testimonial--container {
+    .container-left {
         grid-template-columns: 1fr;
         gap: 0;
-    }
-
-    .testimonial {
         width: 50%;
         margin: 2rem auto 4rem;
     }
 }
 
-.testimonial--info {
-    text-align: center;
+.testimonial {
+    
 }
 
 /* =============================== MEDIA QUERIES (SMALL DEVICES) =============================== */
@@ -49,6 +42,7 @@
     .testimonial {
         width: 65%;
         margin: 0 auto 3rem;
+        text-align: center;
     }
 
 }
