@@ -1,9 +1,9 @@
 import React from 'react';
 import './testimonials.css';
 import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
-import Juan from '../assets/img/testimonials/juan.jpg';
-import Olivia from '../assets/img/testimonials/olivia.jpg';
-import Pedro from '../assets/img/testimonials/pedro.jpg';
+import Juan from '../assets/img/testimonials/juan.png';
+import Olivia from '../assets/img/testimonials/olivia.png';
+import Pedro from '../assets/img/testimonials/pedro.png';
 
 const Testimonials = () => {
     return (
