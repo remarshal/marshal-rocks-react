@@ -1,6 +1,15 @@
 
 export default [
     {
+        id: 0,
+        title: 'Tenzi Game',
+        type: 'React App',
+        description: 'This fast-paced game is enjoyable and very simple.  It was created in React 18.0.0 to continue improving my skills while retaining my newly aquired knowledge.  It utilizes passing props, receiving values from children, ternary operators, useState, useEffect, and a fun winning surprise!',
+        image: '../images/portfolio/portfolio-0.png',
+        github: 'https://github.com/remarshal/tenzies-game',
+        site: 'https://remarshal-tenzies-game.netlify.app/',
+    },
+    {
         id: 1,
         title: 'Meme Generator',
         type: 'React App',
