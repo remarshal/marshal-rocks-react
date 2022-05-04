@@ -19,7 +19,7 @@ const Testimonials = () => {
                             <div className='img--grid'>
                                 <a href="#" target='_blank'><img className="client--img" src={Juan} alt="My instructor Juan from NuCamp" /></a>
                             </div>
-                            <a href="#" target='_blank'><h5 className='client--name'>Juan Grajales</h5></a>
+                            <h5 className='client--name'>Juan Grajales</h5>
                             <div className='client--title'>
                                 <p>NuCamp React Instructor<br></br> <a href="#" target='_blank' >React Developer</a></p>
                             </div>
@@ -36,9 +36,9 @@ const Testimonials = () => {
                             <div className="img--grid">
                                 <a href="https://teamonedigital.com" target='_blank'><img className="client--img" src={Olivia} alt="My instructor Olivia from NuCamp" /></a>
                             </div>
-                            <a href="https://teamonedigital.com" target='_blank'> <h5 className='client--name'>Olivia Culver</h5></a>
+                            <h5 className='client--name'>Olivia Culver</h5>
                             <div className="client--title">
-                                <p>NuCamp Bootstrap Instructor <br></br> <a href="#" target='_blank' >Digital & Web Coordinator</a></p>
+                                <p>NuCamp Bootstrap Instructor <br></br> <a href="https://teamonedigital.com" target='_blank' >Digital & Web Coordinator</a></p>
                             </div>
                         </div>
                         <div className='quote--icons-left' ><ImQuotesLeft /></div>

@@ -30,18 +30,12 @@
 }
 
 .client--img:hover {
-  width: 8rem;
-  aspect-ratio: 1/1;
-  border-radius: 50%;
   border: 0.4rem solid var(--color-pale);
+  transition: var(--transition);
 }
 
 .client--name {
   color: var(--color-pale-varient);
-}
-
-.client--name:hover {
-  color: var(--color-primary);
 }
 
 .client--title p {
