@@ -9,9 +9,9 @@ class TypedWords extends Component {
                 <Typed 
                     strings={[
                         'Website Developer',
-                        'Software Coder',
+                        'Social Media Specialist',
                         'Website Designer',
-                        'Freelancer',
+                        'Software Coder',
                     ]}
                     typeSpeed={100}
                     backSpeed={50}
