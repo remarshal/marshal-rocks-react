@@ -26,6 +26,10 @@
     padding: 0 2rem 0 1rem;
 }
 
+.card--info h5 {
+    color: var(--color-primary);
+}
+
 .btn--card {
     margin-right: 15px;
     margin-top: 15px;
