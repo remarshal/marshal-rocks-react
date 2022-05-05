@@ -17,11 +17,11 @@ const Testimonials = () => {
                     <article className="testimonial">
                         <div className='header'>
                             <div className='img--grid'>
-                                <a href="#" target='_blank'><img className="client--img" src={Juan} alt="My instructor Juan from NuCamp" /></a>
+                                <a href="https://www.linkedin.com/in/grajalesjuan" target='_blank'><img className="client--img" src={Juan} alt="My instructor Juan from NuCamp" /></a>
                             </div>
                             <h5 className='client--name'>Juan Grajales</h5>
                             <div className='client--title'>
-                                <p>NuCamp React Instructor<br></br> <a href="#" target='_blank' >React Developer</a></p>
+                                <p>NuCamp React Instructor<br></br> <a href="https://www.linkedin.com/in/grajalesjuan" target='_blank' >React Developer</a></p>
                             </div>
                         </div>
                         <div className='quote--icons-left' ><ImQuotesLeft /></div>
