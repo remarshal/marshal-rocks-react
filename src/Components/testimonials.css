@@ -1,4 +1,4 @@
-.container.testimonial--container {
+.testimonial--container {
   width: 50%;
 }
 
@@ -17,9 +17,9 @@
 }
 
 .img--grid {
-    display: flex;
-    justify-content: center;
-  }
+  display: flex;
+  justify-content: center;
+}
 
 .client--img {
   width: 8rem;
@@ -39,7 +39,7 @@
 }
 
 .client--title p {
-    color: var(--color-dark);
+  color: var(--color-dark);
 }
 
 .client--review {
@@ -66,7 +66,7 @@
 /* =============================== MEDIA QUERIES (MEDIUM DEVICES) =============================== */
 
 @media screen and (max-width: 1024px) {
-  .container.testimonial--container {
+  .testimonial--container {
     width: 70%;
   }
 
@@ -80,7 +80,7 @@
 /* =============================== MEDIA QUERIES (SMALL DEVICES) =============================== */
 
 @media screen and (max-width: 600px) {
-  .container.testimonial--container {
+  .testimonial--container {
     width: var(--container-width-sm);
   }
 
