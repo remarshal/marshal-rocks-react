@@ -2,6 +2,7 @@ import './about.css';
 import ProfileImg from '../assets/img/profile-img.png';
 import BootstrapBadge from '../assets/img/bootstrap-badge.png';
 import ReactBadge from '../assets/img/react-badge.png';
+import ReactNativeBadge from '../assets/img/react-native-badge.png';
 import HtmlBadge from '../assets/img/htmlcssjs-badge.png';
 
 const About = () => {
@@ -21,6 +22,9 @@ const About = () => {
                         <div className='about--badge'>
                             <img src={ReactBadge} alt="React Course Completion Certificate Badge" />
                         </div>
+                        <div className='about--badge'>
+                            <img src={ReactNativeBadge} alt="React Native Course Completion Certificate Badge" />
+                        </div>
                     </div>
             <div className="container about--container">
                 <div className="about--me">
@@ -30,7 +34,7 @@ const About = () => {
                 </div>
                 <div className="about--content">
                     <h4>Results-driven Front-End Developer</h4>
-                    <p>I'm currently enrolled in the <a href='https://nucamp.co' target='_blank'>Full-Stack Web + Mobile Development</a>bootcamp from <a href='https://nucamp.co' target='_blank'>NuCamp.</a>I'm proud of my first 3 certifications displayed above!  The final two remaining are mobile development with React Native and back-end databases with Node.js and MongoDB.</p>
+                    <p>I'm currently enrolled in the <a href='https://nucamp.co' target='_blank'>Full-Stack Web + Mobile Development</a>bootcamp from <a href='https://nucamp.co' target='_blank'>NuCamp.</a>I'm proud of my first 4 certifications displayed above!  The final one remaining is working with back-end servers in Node.js and using MongoDB databases.</p>
                     <p>I have a passion bringing the technical and creative aspects of web development to each project. I work to bridge these together thereby creating a user experience to the design. Connecting and interacting with a website encourages more community engagement.</p>
                     <p>I am happiest when creating, learning, and exploring how to bring websites to life. My experience managing systems, networks, and IT administration puts me in a unique position to troubleshoot and solve problems on my coding journey.  Occasionally I'm available for freelance work, feel free to reach out and say hi!</p>
                     <a href='#contact' className='btn btn-primary'>Let's connect!</a>
