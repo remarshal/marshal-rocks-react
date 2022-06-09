@@ -1,5 +1,15 @@
 export default [
   {
+    {
+      id: 8,
+      title: "Campsite Reservation App",
+      type: "React Native Class Project",
+      description:
+        "To create an app based from our React website using React App.  This fictional campsite reservation app uses React Native allowing deployments to both Android and iOS devices.  It uses props, ternary operators, useState, and uses async and await to access the camera and photo gallery.",
+      image: "../images/portfolio/portfolio-8.png",
+      github: "https://github.com/remarshal/nucampsite-react-native",
+      site: "https://marshal.rocks/#portfolio",
+  },
     id: 0,
     title: "Tenzi Game",
     type: "React App",
@@ -8,16 +18,6 @@ export default [
     image: "../images/portfolio/portfolio-0.png",
     github: "https://github.com/remarshal/tenzies-game",
     site: "https://remarshal-tenzies-game.netlify.app/",
-  },
-  {
-    id: 8,
-    title: "Campsite Reservation App",
-    type: "React Native Class Project",
-    description:
-      "To create an app based from our React website using React App.  This fictional campsite reservation app uses React Native allowing deployments to both Android and iOS devices.  It uses props, ternary operators, useState, and uses async and await to access the camera and photo gallery.",
-    image: "../images/portfolio/portfolio-8.png",
-    github: "https://github.com/remarshal/nucampsite-react-native",
-    site: "https://remarshal-nucamp-react.netlify.app/",
   },
   {
     id: 1,
@@ -85,7 +85,7 @@ export default [
     type: "Wordpress",
     description:
       "I created this site for my personal watercolor painting hobby.  It taught me not only Wordpress, but how to manage the domain, install a SSL certificate, deployment with backups, and security practices.",
-    image: "../images/portfolio/portfolio-8.png",
+    image: "../images/portfolio/portfolio-7.png",
     github: "https://github.com/remarshal/",
     site: "https://marshalwalden.com/",
   },
