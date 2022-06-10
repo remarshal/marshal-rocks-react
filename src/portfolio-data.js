@@ -1,6 +1,5 @@
 export default [
   {
-    {
       id: 8,
       title: "Campsite Reservation App",
       type: "React Native Class Project",
@@ -10,6 +9,7 @@ export default [
       github: "https://github.com/remarshal/nucampsite-react-native",
       site: "https://marshal.rocks/#portfolio",
   },
+  {
     id: 0,
     title: "Tenzi Game",
     type: "React App",
