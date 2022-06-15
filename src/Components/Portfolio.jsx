@@ -3,7 +3,10 @@ import Card from './Card';
 import portfolioData from "../portfolio-data";
 
 const Portfolio = () => {
-    const projects = portfolioData.map(project => {
+    // sort portfolio in descending order by id
+    const sortPortfolio = portfolioData.sort((a, b) => parseFloat(b.id) - parseFloat(a.id));
+    
+    const projects = sortPortfolio.map(project => {
         return (
             <Card
                 key={project.id}
