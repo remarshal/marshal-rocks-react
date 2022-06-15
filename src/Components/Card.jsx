@@ -12,7 +12,8 @@ const Card = (props) => {
                     <h5>{props.project.type}</h5>
                     <p>{props.project.description}</p>
                     <a href={props.project.github} target='_blank' className='btn btn--card'>Github</a>
-                    <a href={props.project.site} target='_blank' className='btn btn-primary btn--card'>Live Site</a>
+                    {/* suppress live site on react native projects */}
+                    {props.project.showsite ? <a href={props.project.site} target='_blank' className='btn btn-primary btn--card'>Live Site</a> : <a></a>}
                 </div>
             </article>
         </div>
