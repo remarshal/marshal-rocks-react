@@ -8,8 +8,8 @@ class TypedWords extends Component {
             <div className='typed--text'>
                 <Typed 
                     strings={[
-                        'Website Developer',
-                        'Social Media Specialist',
+                        'React Developer',
+                        'Front-end Specialist',
                         'Website Designer',
                         'Software Coder',
                     ]}
