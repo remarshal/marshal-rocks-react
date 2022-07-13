@@ -3,7 +3,7 @@ import './testimonials.css';
 import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im';
 import Juan from '../assets/img/testimonials/juan.png';
 import Olivia from '../assets/img/testimonials/olivia.png';
-import Pedro from '../assets/img/testimonials/pedro.png';
+import Joe from '../assets/img/testimonials/joe.png';
 
 const Testimonials = () => {
     return (
@@ -43,6 +43,23 @@ const Testimonials = () => {
                     <div className='quote--icons-left' ><ImQuotesLeft /></div>
                     <p className='client--review'>I had the honor of having Marshal as a student in one of my Bootstrap cohorts with Nucamp Coding Bootcamp. He was my favorite type of student—engaged, curious, and hard working.</p>
                     <p className='client--review'>He worked well with the other students, asked thoughtful questions, and performed well on the exercises and assignments. He has not only the technical aptitude for web development but also the soft skills that make him personable and easy to work with.</p>
+                    <div className='quote--icons-right' >
+                        <ImQuotesRight />
+                    </div>
+                </article>
+                <article className="testimonial">
+                    <div className="header">
+                        <div className="img--grid">
+                            <a href="https://www.linkedin.com/in/joe-mackie-7a37871a7" target='_blank'><img className="client--img" src={Joe} alt="My instructor Joe from NuCamp" /></a>
+                        </div>
+                        <h5 className='client--name'>Joe Mackie</h5>
+                        <div className="client--title">
+                            <p>NuCamp Node Instructor <br></br> <a href="https://teamonedigital.com" target='_blank' >Senior Software Engineer</a></p>
+                        </div>
+                    </div>
+                    <div className='quote--icons-left' ><ImQuotesLeft /></div>
+                    <p className='client--review'>I had the pleasure of having Marshal in my NodeJS, Express, and MongoDB course.</p>
+                    <p className='client--review'>Marshal was on time and prepared for each session. Assignment submissions showed good understanding of the concepts presented within the course. In addition, Marshal was able to assist other students to help make everyone better.</p>
                     <div className='quote--icons-right' >
                         <ImQuotesRight />
                     </div>
