@@ -3,6 +3,7 @@ import ProfileImg from '../assets/img/profile-img.png';
 import BootstrapBadge from '../assets/img/bootstrap-badge.png';
 import ReactBadge from '../assets/img/react-badge.png';
 import ReactNativeBadge from '../assets/img/react-native-badge.png';
+import NodeBadge from '../assets/img/node-badge.png';
 import HtmlBadge from '../assets/img/htmlcssjs-badge.png';
 
 const About = () => {
@@ -24,6 +25,9 @@ const About = () => {
                         </div>
                         <div className='about--badge'>
                             <img src={ReactNativeBadge} alt="React Native Course Completion Certificate Badge" />
+                        </div>
+                        <div className='about--badge'>
+                            <img src={NodeBadge} alt="Node JS Course Completion Certificate Badge" />
                         </div>
                     </div>
             <div className="container about--container">
