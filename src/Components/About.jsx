@@ -40,7 +40,7 @@ const About = () => {
                     <h4>Results-driven Front-End Developer</h4>
                     <p>I'm recently graduated from the <a href='https://nucamp.co' target='_blank'>Full-Stack Web and Mobile Development</a>bootcamp at <a href='https://nucamp.co' target='_blank'>NuCamp.</a>I'm proud of all 5 certifications displayed above!  My focus has been predominately front end learning React, with our final certification on back-end servers using MongoDB databases and Node JS.</p>
                     <p>I have a passion bringing the technical and creative aspects of web development to each project. I work to bridge these together thereby creating a user experience to the design. Connecting and interacting with a website encourages more community engagement.</p>
-                    <p>I am happiest when creating, learning, and exploring how to bring websites to life. My experience managing systems, networks, and IT administration puts me in a unique position to troubleshoot and solve problems on my coding journey.  Occasionally I'm available for freelance work, feel free to reach out and say hi!</p>
+                    <p>I am happiest when creating, learning, and exploring how to bring websites to life. My IT experience managing systems and networks puts me in a unique position to troubleshoot and solve problems on my coding journey.  Occasionally I'm available for freelance work, feel free to reach out and say hi!</p>
                     <a href='#contact' className='btn btn-primary'>Let's connect!</a>
                 </div>
             </div>
