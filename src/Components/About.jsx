@@ -38,9 +38,10 @@ const About = () => {
                 </div>
                 <div className="about--content">
                     <h4>Results-driven Front-End Developer</h4>
-                    <p>I'm recently graduated from the <a href='https://nucamp.co' target='_blank'>Full-Stack Web and Mobile Development</a>bootcamp at <a href='https://nucamp.co' target='_blank'>NuCamp.</a>I'm proud of all 5 certifications displayed above!  My focus has been predominately learning React and JavaScript, with my final certification on back-end servers using MongoDB databases and Node JS.</p>
-                    <p>I have a passion for coding and enjoy bringing both my technical and creative ability to each project. I enjoy creating a user experience that's not only functional but encompasses creativity in the design. Connecting and interacting with a well designed website helps create a better user experience.</p>
-                    <p>I am happiest when creating, learning, and exploring! My experience with systems and networks has propelled my troubleshooting and problem solivng skills while on my coding journey.  Occasionally I'm available for freelance work, feel free to reach out and say hi!</p>
+                    <p>As a graduatate of the <a href='https://nucamp.co' target='_blank'>Full-Stack Web and Mobile Development</a>bootcamp from <a href='https://nucamp.co' target='_blank'>NuCamp,</a>I am proud of all 5 certifications displayed above!  My primary focus has been learning React and JavaScript, with my final certification in NodeJS with back-end servers using MongoDB databases.</p>
+                    <p>I'm passionate about coding!  I bring both my technical & creative abilities to each project. I enjoy creating functional applications that incorporate my creativity in the design. I'm thankful for my background in system administration which has provided me with invaluable troubleshooting and problem solving skills!</p>
+                    <p>Bringing my code to life is both rewarding and humbling!  I have a great appreciation for clean code and the countless hours of those who have advanced the technology we have today!  Having a well designed website helps create a better user experience.</p>
+                    <p>Occasionally I'm available for freelance work, feel free to reach out and say hi!</p>
                     <a href='#contact' className='btn btn-primary'>Let's connect!</a>
                 </div>
             </div>
