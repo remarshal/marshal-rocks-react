@@ -35,17 +35,6 @@ export default [
   },
   {
     id: 3,
-    title: "Pottery Studio Store",
-    type: "Bootstrap Ecommerce",
-    description:
-      "My first Bootstrap site was a Pottery Studio case study.  Each student created their own assignment while attending the NuCamp coding bootcamp.",
-    image: "../images/portfolio/portfolio-3.png",
-    github: "https://github.com/remarshal/pottery-studio",
-    site: "https://remarshal.github.io/Pottery-Studio/",
-    showsite: true,
-  },
-  {
-    id: 4,
     title: "Campsite Reservations",
     type: "React Class Project",
     description:
@@ -56,7 +45,29 @@ export default [
     showsite: true,
   },
   {
+    id: 4,
+    title: "Pottery Studio Store",
+    type: "Bootstrap Ecommerce",
+    description:
+      "My first Bootstrap site was a Pottery Studio case study.  Each student created their own assignment while attending the NuCamp coding bootcamp.",
+    image: "../images/portfolio/portfolio-3.png",
+    github: "https://github.com/remarshal/pottery-studio",
+    site: "https://remarshal.github.io/Pottery-Studio/",
+    showsite: true,
+  },
+  {
     id: 5,
+    title: "Campsite Reservation App",
+    type: "React Native Class Project",
+    description:
+      "To create an app based from our React website using React App.  This fictional campsite reservation app uses React Native allowing deployments to both Android and iOS devices.  It uses props, ternary operators, useState, and uses async and await to access the camera and photo gallery.",
+    image: "../images/portfolio/portfolio-8.png",
+    github: "https://github.com/remarshal/nucampsite-react-native",
+    site: "https://marshal.rocks/#portfolio",
+    showsite: false,
+},
+  {
+    id: 6,
     title: "Color Game",
     type: "Vanilla JavaScript",
     description:
@@ -67,7 +78,7 @@ export default [
     showsite: true,
   },
   {
-    id: 6,
+    id: 7,
     title: "Meme Generator",
     type: "React App",
     description:
@@ -78,7 +89,7 @@ export default [
     showsite: true,
   },
   {
-    id: 7,
+    id: 8,
     title: "Tenzi Game",
     type: "React App",
     description:
@@ -88,15 +99,4 @@ export default [
     site: "https://remarshal-tenzies-game.netlify.app/",
     showsite: true,
   },
-  {
-    id: 8,
-    title: "Campsite Reservation App",
-    type: "React Native Class Project",
-    description:
-      "To create an app based from our React website using React App.  This fictional campsite reservation app uses React Native allowing deployments to both Android and iOS devices.  It uses props, ternary operators, useState, and uses async and await to access the camera and photo gallery.",
-    image: "../images/portfolio/portfolio-8.png",
-    github: "https://github.com/remarshal/nucampsite-react-native",
-    site: "https://marshal.rocks/#portfolio",
-    showsite: false,
-},
 ];
