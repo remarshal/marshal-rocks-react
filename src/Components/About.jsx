@@ -5,7 +5,6 @@ import ReactBadge from '../assets/img/react-badge.png';
 import ReactNativeBadge from '../assets/img/react-native-badge.png';
 import NodeBadge from '../assets/img/node-badge.png';
 import HtmlBadge from '../assets/img/htmlcssjs-badge.png';
-import AccentureLogo from '../assets/img/accenture-logo.png';
 
 const About = () => {
     return (
@@ -13,11 +12,6 @@ const About = () => {
             <div className="section-title">
                 <h2>About</h2>
                 <h4>Who is Marshal?</h4>
-            </div>
-            <div className="employment--badges">
-                <div className='employment--badge'>
-                    <img src={AccentureLogo} alt="HTML CSS JavaScript Course Completion Certificate Badge" />
-                </div>
             </div>
             <div className="about--badges">
                 <div className='about--badge'>
