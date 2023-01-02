@@ -37,10 +37,10 @@ const About = () => {
                     </div>
                 </div>
                 <div className="about--content">
-                    <h4>Results-driven Front-End Developer</h4>
+                    <h4>Results-driven Application Developer</h4>
                     <p>As a graduatate of the <a href='https://nucamp.co' target='_blank'>Full-Stack Web and Mobile Development</a>bootcamp from <a href='https://nucamp.co' target='_blank'>NuCamp,</a>I am proud of all 5 certifications displayed above!  My primary focus has been learning React and JavaScript, with my final certification in NodeJS with back-end servers using MongoDB databases.</p>
                     <p>I'm passionate about coding!  I bring both my technical & creative abilities to each project. I enjoy creating functional applications that incorporate my creativity in the design. I'm thankful for my background in system administration which has provided me with invaluable troubleshooting and problem solving skills!</p>
-                    <p>Bringing my code to life is both rewarding and humbling!  I have a great appreciation for clean code and the countless hours of those who have advanced the technology we have today!  Having a well designed website helps create a better user experience.</p>
+                    <p>I’m happy to share my new role at Accenture!  As an Application Development Associate I assist with the design and development of software products aligned with the business requirements of each client.  Having exposure to additional technogies continues my development as a developer.</p>
                     <p>Occasionally I'm available for freelance work, feel free to reach out and say hi!</p>
                     <a href='#contact' className='btn btn-primary'>Let's connect!</a>
                 </div>
