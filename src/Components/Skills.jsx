@@ -4,7 +4,7 @@ import { AiFillApi } from 'react-icons/ai';
 import { SiJavascript, SiCss3, SiHtml5, SiJquery, SiReact, SiGithub, SiGnubash, SiWordpress } from 'react-icons/si';
 import { VscCode } from 'react-icons/vsc';
 import { MdPhonelink } from 'react-icons/md';
-import { FaSass } from 'react-icons/fa';
+import { FaSass, FaAws } from 'react-icons/fa';
 
 const Skills = () => {
     return (
@@ -57,8 +57,8 @@ const Skills = () => {
                             <h5>VS Code</h5>
                         </article>
                         <article className='skills--card'>
-                            <MdPhonelink className='skills--icons' />
-                            <h5>Responsive Websites</h5>
+                            <FaAws className='skills--icons' />
+                            <h5>AWS</h5>
                         </article>
                         <article className='skills--card'>
                             <SiWordpress className='skills--icons' />
