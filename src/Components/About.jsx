@@ -5,6 +5,7 @@ import ReactBadge from '../assets/img/react-badge.png';
 import ReactNativeBadge from '../assets/img/react-native-badge.png';
 import NodeBadge from '../assets/img/node-badge.png';
 import HtmlBadge from '../assets/img/htmlcssjs-badge.png';
+import AccentureLogo from '../assets/img/accenture-logo.png'
 
 const About = () => {
     return (
@@ -39,9 +40,12 @@ const About = () => {
                 <div className="about--content">
                     <h4>Results-driven Application Developer</h4>
                     <p>As a graduatate of the <a href='https://nucamp.co' target='_blank'>Full-Stack Web and Mobile Development</a>bootcamp from <a href='https://nucamp.co' target='_blank'>NuCamp,</a>I am proud of all 5 certifications displayed above!  My primary focus has been learning React and JavaScript, with my final certification in NodeJS with back-end servers using MongoDB databases.</p>
-                    <p>I'm passionate about coding!  I bring both my technical & creative abilities to each project. I enjoy creating functional applications that incorporate my creativity in the design. I'm thankful for my background in system administration which has provided me with invaluable troubleshooting and problem solving skills!</p>
-                    <p>I’m happy to share my new role at Accenture!  As an Application Development Associate I assist with the design and development of software products aligned with the business requirements of each client.  Having exposure to additional technogies continues my development as a developer.</p>
-                    <p>Occasionally I'm available for freelance work, feel free to reach out and say hi!</p>
+                    {/* <p>I'm passionate about coding!  I bring both my technical & creative abilities to each project. I enjoy creating functional applications that incorporate my creativity in the design. I'm thankful for my background in system administration which has provided me with invaluable troubleshooting and problem solving skills!</p> */}
+                    <div className='employment--badges'>
+                    <img src={AccentureLogo} alt="Accenture Logo" className="employment--badge"/>
+                    </div>
+                    <p>I’m happy to share my new role at Accenture!  As an Application Development Associate I assist with the design and development of software products aligned with the business requirements of each client.  I'm excited to learn new technologies and contribute to my team!</p>
+                    <p>Feel free to reach out and say hi!</p>
                     <a href='#contact' className='btn btn-primary'>Let's connect!</a>
                 </div>
             </div>
