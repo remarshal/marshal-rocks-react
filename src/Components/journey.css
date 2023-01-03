@@ -9,11 +9,11 @@
 .journey--section {
   display: flex;
   justify-content: center;
-  margin-top: 4rem;
+  margin: 4rem;
 }
 
 .journey--img {
-  max-width: 65%;
+  max-width: 15%;
   border-radius: 5%;
 }
 
