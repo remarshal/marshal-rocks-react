@@ -3,23 +3,39 @@
     padding: 4rem 0rem;
 }
 
-.skills--badges {
-    display: flex;
-    gap: 1.5rem;
-    justify-content: center;
-    margin-top: 3rem;
-}
-
-.skills--badge {
-    max-width: 200px;
-}
-
 .skills--container {
+    display: flex;
+    gap: 15%;
+}
+
+.skills--cards {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
     justify-content: center;
-    margin: 5rem 10rem 0rem 10rem;
+}
+
+.skills--card {
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+    padding: .75rem 1.2rem;
+    border-radius: .4rem;    
+    width:150px;
+}
+
+.skills--icons {
+    color: var(--color-primary);
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+
+.skills--card:hover > .skills--icons {
+    color: var(--color-primary);
+}
+
+.skills--cards p {
+    margin: 2rem;
+    color: var(--color-dark);
 }
 
 
@@ -31,22 +47,32 @@
         gap: 0;
     }
 
-    .skills--badge {
+    .skills--me {
         width: 50%;
         margin: 2rem auto 4rem;
     }
 }
 
+.skills--content {
+    text-align: center;
+}
 
 /* =============================== MEDIA QUERIES (SMALL DEVICES) =============================== */
 
 @media screen and (max-width: 600px) {
+    .skills--me {
+        width: 65%;
+        margin: 0 auto 3rem;
+    }
 
-    .skills--badge {
+    .skills--cards {
         grid-template-columns:  1fr;
         gap: 1rem;
         justify-items: center;
     }
 
+    .skills--card {
+        width: 60%;
+    }
 }
 
