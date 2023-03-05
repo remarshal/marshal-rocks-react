@@ -9,7 +9,7 @@ class TypedWords extends Component {
                 <Typed 
                     strings={[
                         'Application Developer',
-                        'Oracle Engineer',
+                        'Oracle SQL Engineer',
                         'Cloud Specialist',
                         'Software Coder',
                     ]}
