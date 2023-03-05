@@ -1,7 +1,7 @@
 import React from 'react';
 import './skills.css';
-import { AiFillApi } from 'react-icons/ai';
-import { SiJavascript, SiCss3, SiHtml5, SiJquery, SiReact, SiGithub, SiGnubash, SiWordpress } from 'react-icons/si';
+import { AiFillApi, AiOutlineConsoleSql, AiFillDatabase, AiOutlineCloudServer } from 'react-icons/ai';
+import { SiJavascript, SiJquery, SiReact, SiGithub, SiGnubash, SiWordpress, SiOracle } from 'react-icons/si';
 import { VscCode } from 'react-icons/vsc';
 import { MdPhonelink } from 'react-icons/md';
 import { FaSass, FaAws } from 'react-icons/fa';
@@ -17,12 +17,24 @@ const Skills = () => {
                 <div className="skills--content">
                     <div className="skills--cards">
                         <article className='skills--card'>
-                            <SiHtml5 className='skills--icons' />
-                            <h5>HTML5</h5>
+                            <SiOracle className='skills--icons' />
+                            <h5>Oracle</h5>
                         </article>
                         <article className='skills--card'>
-                            <SiCss3 className='skills--icons' />
-                            <h5>CSS3</h5>
+                            <AiOutlineConsoleSql className='skills--icons' />
+                            <h5>Oracle SQL</h5>
+                        </article>
+                        <article className='skills--card'>
+                            <AiFillDatabase className='skills--icons' />
+                            <h5>Database</h5>
+                        </article>
+                        <article className='skills--card'>
+                            <AiOutlineCloudServer className='skills--icons' />
+                            <h5>OCI</h5>
+                        </article>
+                        <article className='skills--card'>
+                            <FaAws className='skills--icons' />
+                            <h5>AWS</h5>
                         </article>
                         <article className='skills--card'>
                             <SiJavascript className='skills--icons' />
@@ -49,16 +61,16 @@ const Skills = () => {
                             <h5>APIs</h5>
                         </article>
                         <article className='skills--card'>
+                            <MdPhonelink className='skills--icons' />
+                            <h5>CSS</h5>
+                        </article>
+                        <article className='skills--card'>
                             <FaSass className='skills--icons' />
                             <h5>SASS</h5>
                         </article>
                         <article className='skills--card'>
                             <VscCode className='skills--icons' />
                             <h5>VS Code</h5>
-                        </article>
-                        <article className='skills--card'>
-                            <FaAws className='skills--icons' />
-                            <h5>AWS</h5>
                         </article>
                         <article className='skills--card'>
                             <SiWordpress className='skills--icons' />
